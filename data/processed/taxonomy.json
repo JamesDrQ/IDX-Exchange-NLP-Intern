@@ -1,0 +1,1059 @@
+{
+  "terms": [
+    {
+      "id": "interior_feature_001",
+      "term": "kitchen",
+      "category": "interior_feature"
+    },
+    {
+      "id": "exterior_feature_001",
+      "term": "garage",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "view_001",
+      "term": "views",
+      "category": "view"
+    },
+    {
+      "id": "property_type_001",
+      "term": "residence",
+      "category": "property_type"
+    },
+    {
+      "id": "amenity_001",
+      "term": "pool",
+      "category": "amenity"
+    },
+    {
+      "id": "interior_feature_002",
+      "term": "flooring",
+      "category": "interior_feature"
+    },
+    {
+      "id": "exterior_feature_002",
+      "term": "backyard",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "condition_001",
+      "term": "updated",
+      "category": "condition"
+    },
+    {
+      "id": "condition_002",
+      "term": "modern",
+      "category": "condition"
+    },
+    {
+      "id": "interior_feature_003",
+      "term": "storage",
+      "category": "interior_feature"
+    },
+    {
+      "id": "condition_003",
+      "term": "custom",
+      "category": "condition"
+    },
+    {
+      "id": "interior_feature_004",
+      "term": "fireplace",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_005",
+      "term": "appliances",
+      "category": "interior_feature"
+    },
+    {
+      "id": "exterior_feature_003",
+      "term": "parking",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "interior_feature_006",
+      "term": "closet",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_007",
+      "term": "cabinetry",
+      "category": "interior_feature"
+    },
+    {
+      "id": "exterior_feature_004",
+      "term": "patio",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "interior_feature_008",
+      "term": "windows",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_009",
+      "term": "shower",
+      "category": "interior_feature"
+    },
+    {
+      "id": "condition_004",
+      "term": "remodeled",
+      "category": "condition"
+    },
+    {
+      "id": "amenity_002",
+      "term": "spa",
+      "category": "amenity"
+    },
+    {
+      "id": "interior_feature_010",
+      "term": "doors",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_011",
+      "term": "lighting",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_012",
+      "term": "island",
+      "category": "interior_feature"
+    },
+    {
+      "id": "location_001",
+      "term": "schools",
+      "category": "location"
+    },
+    {
+      "id": "condition_005",
+      "term": "upgraded",
+      "category": "condition"
+    },
+    {
+      "id": "location_002",
+      "term": "beach",
+      "category": "location"
+    },
+    {
+      "id": "condition_006",
+      "term": "luxury",
+      "category": "condition"
+    },
+    {
+      "id": "location_003",
+      "term": "parks",
+      "category": "location"
+    },
+    {
+      "id": "location_004",
+      "term": "restaurants",
+      "category": "location"
+    },
+    {
+      "id": "condition_007",
+      "term": "maintained",
+      "category": "condition"
+    },
+    {
+      "id": "exterior_feature_005",
+      "term": "balcony",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "condition_008",
+      "term": "newer",
+      "category": "condition"
+    },
+    {
+      "id": "location_005",
+      "term": "downtown",
+      "category": "location"
+    },
+    {
+      "id": "exterior_feature_006",
+      "term": "deck",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "exterior_feature_007",
+      "term": "yard",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "property_type_002",
+      "term": "condo",
+      "category": "property_type"
+    },
+    {
+      "id": "financial_001",
+      "term": "hoa",
+      "category": "financial"
+    },
+    {
+      "id": "exterior_feature_008",
+      "term": "landscaping",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "exterior_feature_009",
+      "term": "garden",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "location_006",
+      "term": "nearby",
+      "category": "location"
+    },
+    {
+      "id": "exterior_feature_010",
+      "term": "driveway",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "financial_002",
+      "term": "income",
+      "category": "financial"
+    },
+    {
+      "id": "financial_003",
+      "term": "rental",
+      "category": "financial"
+    },
+    {
+      "id": "view_002",
+      "term": "view",
+      "category": "view"
+    },
+    {
+      "id": "property_type_003",
+      "term": "loft",
+      "category": "property_type"
+    },
+    {
+      "id": "exterior_feature_011",
+      "term": "roof",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "location_007",
+      "term": "freeway",
+      "category": "location"
+    },
+    {
+      "id": "interior_feature_013",
+      "term": "pantry",
+      "category": "interior_feature"
+    },
+    {
+      "id": "condition_009",
+      "term": "renovated",
+      "category": "condition"
+    },
+    {
+      "id": "amenity_003",
+      "term": "security",
+      "category": "amenity"
+    },
+    {
+      "id": "location_008",
+      "term": "freeways",
+      "category": "location"
+    },
+    {
+      "id": "property_type_004",
+      "term": "studio",
+      "category": "property_type"
+    },
+    {
+      "id": "interior_feature_014",
+      "term": "ensuite",
+      "category": "interior_feature"
+    },
+    {
+      "id": "amenity_004",
+      "term": "clubhouse",
+      "category": "amenity"
+    },
+    {
+      "id": "financial_004",
+      "term": "investment",
+      "category": "financial"
+    },
+    {
+      "id": "view_003",
+      "term": "panoramic",
+      "category": "view"
+    },
+    {
+      "id": "amenity_005",
+      "term": "gym",
+      "category": "amenity"
+    },
+    {
+      "id": "condition_010",
+      "term": "turnkey",
+      "category": "condition"
+    },
+    {
+      "id": "interior_feature_015",
+      "term": "primary suite",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_016",
+      "term": "floor plan",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_017",
+      "term": "living room",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_018",
+      "term": "natural light",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_019",
+      "term": "living space",
+      "category": "interior_feature"
+    },
+    {
+      "id": "location_009",
+      "term": "conveniently located",
+      "category": "location"
+    },
+    {
+      "id": "interior_feature_020",
+      "term": "dining area",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_021",
+      "term": "home office",
+      "category": "interior_feature"
+    },
+    {
+      "id": "location_010",
+      "term": "minutes from",
+      "category": "location"
+    },
+    {
+      "id": "location_011",
+      "term": "just minutes",
+      "category": "location"
+    },
+    {
+      "id": "location_012",
+      "term": "located near",
+      "category": "location"
+    },
+    {
+      "id": "interior_feature_022",
+      "term": "laundry room",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_023",
+      "term": "family room",
+      "category": "interior_feature"
+    },
+    {
+      "id": "location_013",
+      "term": "easy access",
+      "category": "location"
+    },
+    {
+      "id": "location_014",
+      "term": "close to",
+      "category": "location"
+    },
+    {
+      "id": "interior_feature_024",
+      "term": "recessed lighting",
+      "category": "interior_feature"
+    },
+    {
+      "id": "exterior_feature_012",
+      "term": "attached garage",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "interior_feature_025",
+      "term": "granite countertops",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_026",
+      "term": "quartz countertops",
+      "category": "interior_feature"
+    },
+    {
+      "id": "condition_011",
+      "term": "beautifully maintained",
+      "category": "condition"
+    },
+    {
+      "id": "location_015",
+      "term": "ideally located",
+      "category": "location"
+    },
+    {
+      "id": "interior_feature_027",
+      "term": "dining room",
+      "category": "interior_feature"
+    },
+    {
+      "id": "location_016",
+      "term": "direct access",
+      "category": "location"
+    },
+    {
+      "id": "interior_feature_028",
+      "term": "full bathroom",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_029",
+      "term": "primary bedroom",
+      "category": "interior_feature"
+    },
+    {
+      "id": "exterior_feature_013",
+      "term": "covered patio",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "view_004",
+      "term": "mountain views",
+      "category": "view"
+    },
+    {
+      "id": "interior_feature_030",
+      "term": "soaking tub",
+      "category": "interior_feature"
+    },
+    {
+      "id": "condition_012",
+      "term": "beautifully updated",
+      "category": "condition"
+    },
+    {
+      "id": "interior_feature_031",
+      "term": "great room",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_032",
+      "term": "soaring ceilings",
+      "category": "interior_feature"
+    },
+    {
+      "id": "amenity_006",
+      "term": "fitness center",
+      "category": "amenity"
+    },
+    {
+      "id": "exterior_feature_014",
+      "term": "private balcony",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "location_017",
+      "term": "convenient access",
+      "category": "location"
+    },
+    {
+      "id": "interior_feature_033",
+      "term": "center island",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_034",
+      "term": "vaulted ceilings",
+      "category": "interior_feature"
+    },
+    {
+      "id": "exterior_feature_015",
+      "term": "outdoor living",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "interior_feature_035",
+      "term": "bonus room",
+      "category": "interior_feature"
+    },
+    {
+      "id": "exterior_feature_016",
+      "term": "outdoor space",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "amenity_007",
+      "term": "gated community",
+      "category": "amenity"
+    },
+    {
+      "id": "exterior_feature_017",
+      "term": "car garage",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "interior_feature_036",
+      "term": "updated kitchen",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_037",
+      "term": "hardwood floors",
+      "category": "interior_feature"
+    },
+    {
+      "id": "amenity_008",
+      "term": "golf course",
+      "category": "amenity"
+    },
+    {
+      "id": "interior_feature_038",
+      "term": "custom cabinetry",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_039",
+      "term": "tile flooring",
+      "category": "interior_feature"
+    },
+    {
+      "id": "amenity_009",
+      "term": "sparkling pool",
+      "category": "amenity"
+    },
+    {
+      "id": "exterior_feature_018",
+      "term": "detached garage",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "interior_feature_040",
+      "term": "gourmet kitchen",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_041",
+      "term": "spacious bedrooms",
+      "category": "interior_feature"
+    },
+    {
+      "id": "financial_005",
+      "term": "rental income",
+      "category": "financial"
+    },
+    {
+      "id": "location_018",
+      "term": "walking distance",
+      "category": "location"
+    },
+    {
+      "id": "location_019",
+      "term": "school district",
+      "category": "location"
+    },
+    {
+      "id": "condition_013",
+      "term": "beautifully remodeled",
+      "category": "condition"
+    },
+    {
+      "id": "condition_014",
+      "term": "new flooring",
+      "category": "condition"
+    },
+    {
+      "id": "exterior_feature_019",
+      "term": "private backyard",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "interior_feature_042",
+      "term": "glass doors",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_043",
+      "term": "high ceilings",
+      "category": "interior_feature"
+    },
+    {
+      "id": "location_020",
+      "term": "near shopping",
+      "category": "location"
+    },
+    {
+      "id": "interior_feature_044",
+      "term": "remodeled kitchen",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_045",
+      "term": "ceiling fans",
+      "category": "interior_feature"
+    },
+    {
+      "id": "condition_015",
+      "term": "brand new",
+      "category": "condition"
+    },
+    {
+      "id": "view_005",
+      "term": "ocean views",
+      "category": "view"
+    },
+    {
+      "id": "interior_feature_046",
+      "term": "indoor laundry",
+      "category": "interior_feature"
+    },
+    {
+      "id": "amenity_010",
+      "term": "tennis courts",
+      "category": "amenity"
+    },
+    {
+      "id": "interior_feature_047",
+      "term": "full bathrooms",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_048",
+      "term": "chef kitchen",
+      "category": "interior_feature"
+    },
+    {
+      "id": "exterior_feature_020",
+      "term": "mature landscaping",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "interior_feature_049",
+      "term": "french doors",
+      "category": "interior_feature"
+    },
+    {
+      "id": "exterior_feature_021",
+      "term": "solar panels",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "exterior_feature_022",
+      "term": "private patio",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "interior_feature_050",
+      "term": "stainless steel appliances",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_051",
+      "term": "open floor plan",
+      "category": "interior_feature"
+    },
+    {
+      "id": "amenity_011",
+      "term": "pool and spa",
+      "category": "amenity"
+    },
+    {
+      "id": "interior_feature_052",
+      "term": "formal dining room",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_053",
+      "term": "vinyl plank flooring",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_054",
+      "term": "luxurious primary suite",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_055",
+      "term": "dedicated laundry room",
+      "category": "interior_feature"
+    },
+    {
+      "id": "interior_feature_056",
+      "term": "walk in closet",
+      "category": "interior_feature"
+    },
+    {
+      "id": "location_021",
+      "term": "close to shopping",
+      "category": "location"
+    },
+    {
+      "id": "location_022",
+      "term": "access to shopping",
+      "category": "location"
+    },
+    {
+      "id": "location_023",
+      "term": "shopping and dining",
+      "category": "location"
+    },
+    {
+      "id": "location_024",
+      "term": "unified school district",
+      "category": "location"
+    },
+    {
+      "id": "property_type_005",
+      "term": "condominium",
+      "category": "property_type"
+    },
+    {
+      "id": "property_type_006",
+      "term": "townhouse",
+      "category": "property_type"
+    },
+    {
+      "id": "property_type_007",
+      "term": "townhome",
+      "category": "property_type"
+    },
+    {
+      "id": "property_type_008",
+      "term": "single family home",
+      "category": "property_type"
+    },
+    {
+      "id": "property_type_009",
+      "term": "single family residence",
+      "category": "property_type"
+    },
+    {
+      "id": "property_type_010",
+      "term": "duplex",
+      "category": "property_type"
+    },
+    {
+      "id": "property_type_011",
+      "term": "triplex",
+      "category": "property_type"
+    },
+    {
+      "id": "property_type_012",
+      "term": "fourplex",
+      "category": "property_type"
+    },
+    {
+      "id": "property_type_013",
+      "term": "bungalow",
+      "category": "property_type"
+    },
+    {
+      "id": "property_type_014",
+      "term": "cottage",
+      "category": "property_type"
+    },
+    {
+      "id": "property_type_015",
+      "term": "villa",
+      "category": "property_type"
+    },
+    {
+      "id": "property_type_016",
+      "term": "apartment",
+      "category": "property_type"
+    },
+    {
+      "id": "property_type_017",
+      "term": "manufactured home",
+      "category": "property_type"
+    },
+    {
+      "id": "property_type_018",
+      "term": "mobile home",
+      "category": "property_type"
+    },
+    {
+      "id": "property_type_019",
+      "term": "multi family home",
+      "category": "property_type"
+    },
+    {
+      "id": "property_type_020",
+      "term": "penthouse",
+      "category": "property_type"
+    },
+    {
+      "id": "exterior_feature_023",
+      "term": "new roof",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "exterior_feature_024",
+      "term": "porch",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "exterior_feature_025",
+      "term": "fenced yard",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "exterior_feature_026",
+      "term": "front yard",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "exterior_feature_027",
+      "term": "side yard",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "exterior_feature_028",
+      "term": "carport",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "exterior_feature_029",
+      "term": "terrace",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "exterior_feature_030",
+      "term": "courtyard",
+      "category": "exterior_feature"
+    },
+    {
+      "id": "amenity_012",
+      "term": "community pool",
+      "category": "amenity"
+    },
+    {
+      "id": "amenity_013",
+      "term": "community spa",
+      "category": "amenity"
+    },
+    {
+      "id": "amenity_014",
+      "term": "pickleball courts",
+      "category": "amenity"
+    },
+    {
+      "id": "amenity_015",
+      "term": "playground",
+      "category": "amenity"
+    },
+    {
+      "id": "amenity_016",
+      "term": "elevator",
+      "category": "amenity"
+    },
+    {
+      "id": "amenity_017",
+      "term": "recreation room",
+      "category": "amenity"
+    },
+    {
+      "id": "amenity_018",
+      "term": "dog park",
+      "category": "amenity"
+    },
+    {
+      "id": "amenity_019",
+      "term": "walking trails",
+      "category": "amenity"
+    },
+    {
+      "id": "amenity_020",
+      "term": "bbq area",
+      "category": "amenity"
+    },
+    {
+      "id": "amenity_021",
+      "term": "community center",
+      "category": "amenity"
+    },
+    {
+      "id": "amenity_022",
+      "term": "concierge",
+      "category": "amenity"
+    },
+    {
+      "id": "amenity_023",
+      "term": "guard gate",
+      "category": "amenity"
+    },
+    {
+      "id": "amenity_024",
+      "term": "resort style pool",
+      "category": "amenity"
+    },
+    {
+      "id": "amenity_025",
+      "term": "sports court",
+      "category": "amenity"
+    },
+    {
+      "id": "location_025",
+      "term": "near the beach",
+      "category": "location"
+    },
+    {
+      "id": "condition_016",
+      "term": "move in ready",
+      "category": "condition"
+    },
+    {
+      "id": "condition_017",
+      "term": "recently renovated",
+      "category": "condition"
+    },
+    {
+      "id": "condition_018",
+      "term": "recently remodeled",
+      "category": "condition"
+    },
+    {
+      "id": "condition_019",
+      "term": "well maintained",
+      "category": "condition"
+    },
+    {
+      "id": "condition_020",
+      "term": "freshly painted",
+      "category": "condition"
+    },
+    {
+      "id": "view_006",
+      "term": "city view",
+      "category": "view"
+    },
+    {
+      "id": "view_007",
+      "term": "city views",
+      "category": "view"
+    },
+    {
+      "id": "view_008",
+      "term": "water view",
+      "category": "view"
+    },
+    {
+      "id": "view_009",
+      "term": "water views",
+      "category": "view"
+    },
+    {
+      "id": "view_010",
+      "term": "golf course view",
+      "category": "view"
+    },
+    {
+      "id": "view_011",
+      "term": "pool view",
+      "category": "view"
+    },
+    {
+      "id": "view_012",
+      "term": "park view",
+      "category": "view"
+    },
+    {
+      "id": "view_013",
+      "term": "mountain view",
+      "category": "view"
+    },
+    {
+      "id": "view_014",
+      "term": "ocean view",
+      "category": "view"
+    },
+    {
+      "id": "view_015",
+      "term": "panoramic views",
+      "category": "view"
+    },
+    {
+      "id": "financial_006",
+      "term": "low hoa",
+      "category": "financial"
+    },
+    {
+      "id": "financial_007",
+      "term": "no hoa",
+      "category": "financial"
+    },
+    {
+      "id": "financial_008",
+      "term": "hoa fees",
+      "category": "financial"
+    },
+    {
+      "id": "financial_009",
+      "term": "price reduction",
+      "category": "financial"
+    },
+    {
+      "id": "financial_010",
+      "term": "investment opportunity",
+      "category": "financial"
+    },
+    {
+      "id": "financial_011",
+      "term": "rental property",
+      "category": "financial"
+    },
+    {
+      "id": "financial_012",
+      "term": "income property",
+      "category": "financial"
+    },
+    {
+      "id": "financial_013",
+      "term": "property taxes",
+      "category": "financial"
+    },
+    {
+      "id": "financial_014",
+      "term": "monthly hoa",
+      "category": "financial"
+    },
+    {
+      "id": "financial_015",
+      "term": "assumable loan",
+      "category": "financial"
+    },
+    {
+      "id": "financial_016",
+      "term": "cash flow",
+      "category": "financial"
+    },
+    {
+      "id": "financial_017",
+      "term": "lease income",
+      "category": "financial"
+    },
+    {
+      "id": "financial_018",
+      "term": "seller financing",
+      "category": "financial"
+    },
+    {
+      "id": "financial_019",
+      "term": "closing costs",
+      "category": "financial"
+    },
+    {
+      "id": "financial_020",
+      "term": "price improvement",
+      "category": "financial"
+    }
+  ]
+}
