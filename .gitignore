@@ -1,10 +1,14 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
 .DS_Store
 .env
-venv/
-.venv/
-__pycache__/
-.ipynb_checkpoints/
 
-*.csv
-*.sql
 *.pdf
+*.docx
+*.xlsx
+*.sql
+*.pages
+*.numbers
+
