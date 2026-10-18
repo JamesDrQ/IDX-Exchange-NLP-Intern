@@ -13,3 +13,6 @@ __pycache__/
 *.numbers
 
 .vscode/
+
+# Week 3 local annotations and evaluation data
+data/labeled/
