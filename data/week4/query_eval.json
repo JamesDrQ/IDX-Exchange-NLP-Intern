@@ -1,0 +1,317 @@
+{
+  "dataset": "week4_query_eval",
+  "description": "Independent, manually labeled natural-language property search queries for Week 4 evaluation.",
+  "query_count": 50,
+  "category_counts": {
+    "price_only": 6,
+    "bedrooms_only": 8,
+    "bathrooms_only": 8,
+    "city_only": 7,
+    "pool_positive": 4,
+    "pool_negative": 4,
+    "combined": 10,
+    "no_filters": 3
+  },
+  "records": [
+    {
+      "id": "q01",
+      "category": "price_only",
+      "query": "Find homes under $700k",
+      "expected": {"city": null, "price_min": null, "price_max": 700000, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q02",
+      "category": "price_only",
+      "query": "Show properties below $1.2m",
+      "expected": {"city": null, "price_min": null, "price_max": 1200000, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q03",
+      "category": "price_only",
+      "query": "I'm looking for a condo costing less than $800,000",
+      "expected": {"city": null, "price_min": null, "price_max": 800000, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q04",
+      "category": "price_only",
+      "query": "Homes over $500k, please",
+      "expected": {"city": null, "price_min": 500000, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q05",
+      "category": "price_only",
+      "query": "My budget is above $600k",
+      "expected": {"city": null, "price_min": 600000, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q06",
+      "category": "price_only",
+      "query": "Properties priced between $500k and $900k",
+      "expected": {"city": null, "price_min": 500000, "price_max": 900000, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q07",
+      "category": "bedrooms_only",
+      "query": "Looking for a home with 3 bedrooms",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": 3, "bedrooms_max": 3, "bathrooms_min": null, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q08",
+      "category": "bedrooms_only",
+      "query": "Need a 3 bed house",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": 3, "bedrooms_max": 3, "bathrooms_min": null, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q09",
+      "category": "bedrooms_only",
+      "query": "At least 3 bedrooms",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": 3, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q10",
+      "category": "bedrooms_only",
+      "query": "Minimum 3 beds, if possible",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": 3, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q11",
+      "category": "bedrooms_only",
+      "query": "3+ bedrooms would be ideal",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": 3, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q12",
+      "category": "bedrooms_only",
+      "query": "Up to 4 bedrooms",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": 4, "bathrooms_min": null, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q13",
+      "category": "bedrooms_only",
+      "query": "No more than 4 beds",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": 4, "bathrooms_min": null, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q14",
+      "category": "bedrooms_only",
+      "query": "Between 2 and 4 bedrooms",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": 2, "bedrooms_max": 4, "bathrooms_min": null, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q15",
+      "category": "bathrooms_only",
+      "query": "2 bathrooms",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": 2.0, "bathrooms_max": 2.0, "pool": null}
+    },
+    {
+      "id": "q16",
+      "category": "bathrooms_only",
+      "query": "A place with 2.5 baths",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": 2.5, "bathrooms_max": 2.5, "pool": null}
+    },
+    {
+      "id": "q17",
+      "category": "bathrooms_only",
+      "query": "2+ bathrooms preferred",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": 2.0, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q18",
+      "category": "bathrooms_only",
+      "query": "At least 2 baths",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": 2.0, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q19",
+      "category": "bathrooms_only",
+      "query": "Minimum 1.5 bathrooms, please",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": 1.5, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q20",
+      "category": "bathrooms_only",
+      "query": "Up to 3 bathrooms is fine",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": 3.0, "pool": null}
+    },
+    {
+      "id": "q21",
+      "category": "bathrooms_only",
+      "query": "No more than 2.5 baths",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": 2.5, "pool": null}
+    },
+    {
+      "id": "q22",
+      "category": "bathrooms_only",
+      "query": "Between 2 and 3.5 bathrooms",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": 2.0, "bathrooms_max": 3.5, "pool": null}
+    },
+    {
+      "id": "q23",
+      "category": "city_only",
+      "query": "Show me homes in Irvine",
+      "expected": {"city": "Irvine", "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q24",
+      "category": "city_only",
+      "query": "Properties in San Diego, please",
+      "expected": {"city": "San Diego", "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q25",
+      "category": "city_only",
+      "query": "Looking for a condo in Los Angeles",
+      "expected": {"city": "Los Angeles", "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q26",
+      "category": "city_only",
+      "query": "Sacramento homes, please",
+      "expected": {"city": "Sacramento", "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q27",
+      "category": "city_only",
+      "query": "Are there properties in Anaheim?",
+      "expected": {"city": "Anaheim", "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q28",
+      "category": "city_only",
+      "query": "I'd like listings around Oakland",
+      "expected": {"city": "Oakland", "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q29",
+      "category": "city_only",
+      "query": "Fremont homes near good schools",
+      "expected": {"city": "Fremont", "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q30",
+      "category": "pool_positive",
+      "query": "With a pool",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": true}
+    },
+    {
+      "id": "q31",
+      "category": "pool_positive",
+      "query": "The home has a private pool",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": true}
+    },
+    {
+      "id": "q32",
+      "category": "pool_positive",
+      "query": "Homes with swimming pools are preferred",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": true}
+    },
+    {
+      "id": "q33",
+      "category": "pool_positive",
+      "query": "Pool required",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": true}
+    },
+    {
+      "id": "q34",
+      "category": "pool_negative",
+      "query": "Without a pool",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": false}
+    },
+    {
+      "id": "q35",
+      "category": "pool_negative",
+      "query": "No swimming pool",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": false}
+    },
+    {
+      "id": "q36",
+      "category": "pool_negative",
+      "query": "I don't want a pool",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": false}
+    },
+    {
+      "id": "q37",
+      "category": "pool_negative",
+      "query": "Looking for homes without private pools",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": false}
+    },
+    {
+      "id": "q38",
+      "category": "combined",
+      "query": "Find 3+ bedroom homes in Irvine under $1.2m with a pool",
+      "expected": {"city": "Irvine", "price_min": null, "price_max": 1200000, "bedrooms_min": 3, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": true}
+    },
+    {
+      "id": "q39",
+      "category": "combined",
+      "query": "San Diego houses with at least 2 bedrooms and 2.5 baths below $900,000",
+      "expected": {"city": "San Diego", "price_min": null, "price_max": 900000, "bedrooms_min": 2, "bedrooms_max": null, "bathrooms_min": 2.5, "bathrooms_max": 2.5, "pool": null}
+    },
+    {
+      "id": "q40",
+      "category": "combined",
+      "query": "No more than 4 beds in Sacramento, between $450k and $750k, and no swimming pool",
+      "expected": {"city": "Sacramento", "price_min": 450000, "price_max": 750000, "bedrooms_min": null, "bedrooms_max": 4, "bathrooms_min": null, "bathrooms_max": null, "pool": false}
+    },
+    {
+      "id": "q41",
+      "category": "combined",
+      "query": "Los Angeles condos with 2 bathrooms, a private pool, and a price above $600k",
+      "expected": {"city": "Los Angeles", "price_min": 600000, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": 2.0, "bathrooms_max": 2.0, "pool": true}
+    },
+    {
+      "id": "q42",
+      "category": "combined",
+      "query": "Find 3 bed, 2 bath homes in Berkeley under $800k",
+      "expected": {"city": "Berkeley", "price_min": null, "price_max": 800000, "bedrooms_min": 3, "bedrooms_max": 3, "bathrooms_min": 2.0, "bathrooms_max": 2.0, "pool": null}
+    },
+    {
+      "id": "q43",
+      "category": "combined",
+      "query": "Pasadena homes with 2+ beds, at least 1.5 bathrooms, pool required, and above $500k",
+      "expected": {"city": "Pasadena", "price_min": 500000, "price_max": null, "bedrooms_min": 2, "bedrooms_max": null, "bathrooms_min": 1.5, "bathrooms_max": null, "pool": true}
+    },
+    {
+      "id": "q44",
+      "category": "combined",
+      "query": "Homes in San Jose with 2+ baths and at least 2 bedrooms",
+      "expected": {"city": "San Jose", "price_min": null, "price_max": null, "bedrooms_min": 2, "bedrooms_max": null, "bathrooms_min": 2.0, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q45",
+      "category": "combined",
+      "query": "Riverside 4 bedrooms under $700k without a pool",
+      "expected": {"city": "Riverside", "price_min": null, "price_max": 700000, "bedrooms_min": 4, "bedrooms_max": 4, "bathrooms_min": null, "bathrooms_max": null, "pool": false}
+    },
+    {
+      "id": "q46",
+      "category": "combined",
+      "query": "No more than 3 beds and up to 2.5 baths in Santa Ana between $500k and $900k",
+      "expected": {"city": "Santa Ana", "price_min": 500000, "price_max": 900000, "bedrooms_min": null, "bedrooms_max": 3, "bathrooms_min": null, "bathrooms_max": 2.5, "pool": null}
+    },
+    {
+      "id": "q47",
+      "category": "combined",
+      "query": "Find a Sunnyvale home with minimum 3 beds, 2+ baths, and a pool, below $1.5m",
+      "expected": {"city": "Sunnyvale", "price_min": null, "price_max": 1500000, "bedrooms_min": 3, "bedrooms_max": null, "bathrooms_min": 2.0, "bathrooms_max": null, "pool": true}
+    },
+    {
+      "id": "q48",
+      "category": "no_filters",
+      "query": "I have two kids and would like to see some houses next month",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q49",
+      "category": "no_filters",
+      "query": "I'm comparing neighborhoods and just browsing for now",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": null}
+    },
+    {
+      "id": "q50",
+      "category": "no_filters",
+      "query": "Show me a few homes when you have a chance",
+      "expected": {"city": null, "price_min": null, "price_max": null, "bedrooms_min": null, "bedrooms_max": null, "bathrooms_min": null, "bathrooms_max": null, "pool": null}
+    }
+  ]
+}
