@@ -95,3 +95,47 @@ sharing is authorized.
 
 See [`docs/week3_regex_development.md`](docs/week3_regex_development.md) for
 the implementation notes, score details, and development annotation caveats.
+
+## Week 6: listing signal extraction
+
+Week 6 reads listing records from `real_estate.rets_property`, applies the
+read-only `SignalExtractor`, and exports one JSON object per listing. The
+export includes `listing_id`, complete `remarks` (empty when missing),
+`source_fields`, and the existing `signals` structure. Row-level extraction
+failures are retained as JSONL records with an `error` field. Processing uses
+bounded database batches and replaces the output atomically only after the
+export is complete.
+
+Configure database access with `IDX_MYSQL_USER` and `IDX_MYSQL_PASSWORD` (or
+the existing `MYSQL_*` / `DB_*` environment aliases); host and port can be
+set with `IDX_MYSQL_HOST` and `IDX_MYSQL_PORT`. If credentials are not set,
+the existing interactive username/password prompts are used. Do not commit
+credentials or raw listing exports.
+
+Run a 100-row smoke test:
+
+```bash
+python -m scripts.process_week6_listings --limit 100
+```
+
+Process the full table:
+
+```bash
+python -m scripts.process_week6_listings
+```
+
+Both commands write `data/processed/week6_listing_signals.jsonl`. Use
+`--batch-size 500` to choose a different fetch size, or `--output PATH` to
+write elsewhere. A successful run prints processed, extraction-error, and
+missing-Remarks counts. No full-table processing count is claimed until the
+command has run against the configured database.
+
+Evaluate a completed review CSV with strict exact-label scoring (the default)
+or compare the documented canonical aliases as well:
+
+```bash
+python -m scripts.evaluate_week6_gold --input data/processed/week6_final_holdout_review.csv --normalization both
+```
+
+See [`docs/week6_final_report.md`](docs/week6_final_report.md) for Week 6
+results, limitations, and annotation provenance.

@@ -4,6 +4,9 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 .env
+.env.*
+!.env.example
+*.pem
 
 *.pdf
 *.docx
@@ -16,3 +19,11 @@ __pycache__/
 
 # Week 3 local annotations and evaluation data
 data/labeled/
+
+# Raw listing extracts and review files can contain MLS identifiers and full Remarks.
+data/processed/*listing*.csv
+data/processed/*raw*.csv
+data/processed/*export*.csv
+data/processed/week6*review*.csv
+data/processed/week6*backup*.csv
+data/processed/week6*.jsonl
