@@ -1,0 +1,151 @@
+query,intent,source,review_status
+Browse small single-story houses in Carlsbad,browsing,synthetic,pending
+What homes are available with a detached guest suite?,browsing,synthetic,pending
+Show loft-style condos with high ceilings,browsing,synthetic,pending
+Find houses with a covered backyard patio,browsing,synthetic,pending
+Browse listings in neighborhoods with tree-lined streets,browsing,synthetic,pending
+Show homes with a separate dining room,browsing,synthetic,pending
+Find duplex listings in North County,browsing,synthetic,pending
+Are there ranch-style homes with large lots?,browsing,synthetic,pending
+Show me waterfront condos with balconies,browsing,synthetic,pending
+Browse homes that have a dedicated workshop,browsing,synthetic,pending
+Find houses with an upstairs laundry room,browsing,synthetic,pending
+Show properties featuring a three-car garage,browsing,synthetic,pending
+Browse newly listed cottages near La Mesa,browsing,synthetic,pending
+How have median home prices changed in Irvine over five years?,researching,synthetic,pending
+Compare price per square foot for condos and townhouses in San Diego,researching,synthetic,pending
+Which neighborhoods offer the best value for a first-time buyer?,researching,synthetic,pending
+How much do homes typically sell above asking price in Carlsbad?,researching,synthetic,pending
+What is the average time on market for houses in La Jolla?,researching,synthetic,pending
+Compare the long-term cost of buying a condo versus a detached house,researching,synthetic,pending
+How do property prices differ between coastal and inland neighborhoods?,researching,synthetic,pending
+What price trends should I expect in North County next year?,researching,synthetic,pending
+Which zip codes have seen the largest home price declines?,researching,synthetic,pending
+How do recently sold prices compare with current asking prices?,researching,synthetic,pending
+What are the differences in school ratings between Carmel Valley and Poway?,researching,synthetic,pending
+Compare neighborhood walkability in Encinitas and Solana Beach,researching,synthetic,pending
+Which San Diego areas have shorter average commutes to downtown?,researching,synthetic,pending
+How do noise levels compare near major freeways?,researching,synthetic,pending
+What are the pros and cons of living near an airport?,researching,synthetic,pending
+Which neighborhoods have reliable access to public transit?,researching,synthetic,pending
+How do local crime statistics vary between these communities?,researching,synthetic,pending
+Compare grocery and park access in Mira Mesa and Scripps Ranch,researching,synthetic,pending
+What should I know about future development near this neighborhood?,researching,synthetic,pending
+Which areas offer more public green space per resident?,researching,synthetic,pending
+How do rental yields compare between duplexes and single-family houses?,researching,synthetic,pending
+What vacancy rates are typical for investment condos in San Diego?,researching,synthetic,pending
+Compare cap rates for properties in Oceanside versus Vista,researching,synthetic,pending
+Which expenses should I include in a rental cash-flow calculation?,researching,synthetic,pending
+How much does property management typically reduce net rental income?,researching,synthetic,pending
+What are the risks of buying a short-term rental property?,researching,synthetic,pending
+How do maintenance costs affect returns on older rental homes?,researching,synthetic,pending
+Compare appreciation and rental income potential for two neighborhoods,researching,synthetic,pending
+Is a duplex generally easier to rent than a large luxury house?,researching,synthetic,pending
+How should I estimate return on investment for a fixer-upper?,researching,synthetic,pending
+How do annual property taxes differ between these two houses?,researching,synthetic,pending
+What is included in the monthly HOA fee for this condo complex?,researching,synthetic,pending
+Compare total monthly ownership costs with and without an HOA,researching,synthetic,pending
+How much should I budget for homeowners insurance near the coast?,researching,synthetic,pending
+What special assessments have been charged in this HOA?,researching,synthetic,pending
+How do mortgage points change the long-term cost of a loan?,researching,synthetic,pending
+What would a higher interest rate do to my monthly payment?,researching,synthetic,pending
+Compare the costs of a 15-year and 30-year mortgage,researching,synthetic,pending
+Are there differences in insurance costs between condos and houses?,researching,synthetic,pending
+How much should I reserve annually for home maintenance?,researching,synthetic,pending
+What are the tradeoffs between buying new construction and an older home?,researching,synthetic,pending
+Compare townhouse ownership responsibilities with condo ownership,researching,synthetic,pending
+Which home features contribute most to resale value?,researching,synthetic,pending
+How long do tile roofs typically last compared with asphalt roofs?,researching,synthetic,pending
+What are the benefits and drawbacks of buying a home with solar panels?,researching,synthetic,pending
+How does lot size affect a property's long-term value?,researching,synthetic,pending
+What should I consider when comparing two different floor plans?,researching,synthetic,pending
+Do homes with an additional bathroom command higher resale prices?,researching,synthetic,pending
+Which renovations tend to have the strongest return at resale?,researching,synthetic,pending
+How should I compare homes with different amounts of usable space?,researching,synthetic,pending
+Which neighborhoods face greater wildfire exposure?,researching,synthetic,pending
+How can I compare flood risk for homes near the coast?,researching,synthetic,pending
+What should buyers research about earthquake retrofit requirements?,researching,synthetic,pending
+How do summer temperatures differ across inland San Diego areas?,researching,synthetic,pending
+Which communities have more restrictive short-term rental rules?,researching,synthetic,pending
+What questions should I ask about an older home's plumbing system?,researching,synthetic,pending
+How can I assess traffic congestion around two school districts?,researching,synthetic,pending
+What should I check in a neighborhood's future zoning plans?,researching,synthetic,pending
+How do utility bills compare for similar houses with different insulation?,researching,synthetic,pending
+What should I research about water restrictions before buying?,researching,synthetic,pending
+Is this market currently favoring buyers or sellers?,researching,synthetic,pending
+What does a rising inventory level usually mean for negotiations?,researching,synthetic,pending
+How can I evaluate whether a listing price is reasonable?,researching,synthetic,pending
+Compare recent sales concessions across neighboring zip codes,researching,synthetic,pending
+What factors make a home more difficult to resell?,researching,synthetic,pending
+How do seasonality and interest rates affect local housing demand?,researching,synthetic,pending
+What information belongs in a comparative market analysis?,researching,synthetic,pending
+Can I schedule a private showing of this house tomorrow?,high_intent_inquiry,synthetic,pending
+Book a tour of the listing on Oak Street for Saturday morning,high_intent_inquiry,synthetic,pending
+I'd like to see this condo in person after work today,high_intent_inquiry,synthetic,pending
+Is there an agent who can show me this property this afternoon?,high_intent_inquiry,synthetic,pending
+Please arrange back-to-back tours of these two houses on Sunday,high_intent_inquiry,synthetic,pending
+Can someone confirm a viewing appointment for Friday at 3 pm?,high_intent_inquiry,synthetic,pending
+I'd like to tour the newly listed townhouse before the weekend,high_intent_inquiry,synthetic,pending
+Help me book an in-person visit to this home as soon as possible,high_intent_inquiry,synthetic,pending
+Can we visit the property tomorrow before submitting an offer?,high_intent_inquiry,synthetic,pending
+Please reserve the earliest available showing slot for this listing,high_intent_inquiry,synthetic,pending
+Connect me with the listing agent about buying this condo,high_intent_inquiry,synthetic,pending
+Can the seller's agent call me today about this property?,high_intent_inquiry,synthetic,pending
+I want to ask the agent whether the house is still available,high_intent_inquiry,synthetic,pending
+Please send my contact details to the agent for this listing,high_intent_inquiry,synthetic,pending
+Can you arrange a call with the seller's representative tomorrow?,high_intent_inquiry,synthetic,pending
+I'd like an agent to walk me through the next steps this week,high_intent_inquiry,synthetic,pending
+Please have someone contact me to discuss a specific property,high_intent_inquiry,synthetic,pending
+Can I speak to the listing agent before tonight's deadline?,high_intent_inquiry,synthetic,pending
+I need an agent to help coordinate a visit this weekend,high_intent_inquiry,synthetic,pending
+Who can I contact right now to discuss this home?,high_intent_inquiry,synthetic,pending
+I am ready to submit an offer on this house today,high_intent_inquiry,synthetic,pending
+How do I send a written offer for this listed property?,high_intent_inquiry,synthetic,pending
+Please help me prepare a purchase offer before the deadline,high_intent_inquiry,synthetic,pending
+Can I put in an offer at the asking price this afternoon?,high_intent_inquiry,synthetic,pending
+I want to make a counteroffer to the seller by tonight,high_intent_inquiry,synthetic,pending
+Who should receive my signed offer documents?,high_intent_inquiry,synthetic,pending
+Can we submit an offer contingent on inspection tomorrow?,high_intent_inquiry,synthetic,pending
+I have chosen this property and want to start the offer process,high_intent_inquiry,synthetic,pending
+Can my agent send an updated offer before 5 pm?,high_intent_inquiry,synthetic,pending
+Please confirm whether the seller is accepting offers this week,high_intent_inquiry,synthetic,pending
+I need a home I can move into before the end of this month,high_intent_inquiry,synthetic,pending
+Can I close on this property within the next 30 days?,high_intent_inquiry,synthetic,pending
+I'm relocating next week and need to arrange a viewing now,high_intent_inquiry,synthetic,pending
+Is this vacant home available for immediate occupancy?,high_intent_inquiry,synthetic,pending
+I want to finalize a purchase before my lease expires next month,high_intent_inquiry,synthetic,pending
+Can the seller accommodate a closing date of December 10?,high_intent_inquiry,synthetic,pending
+I need to move quickly; when can we inspect this house?,high_intent_inquiry,synthetic,pending
+Can we begin the purchase paperwork this week?,high_intent_inquiry,synthetic,pending
+I'm ready to proceed if this home can close within six weeks,high_intent_inquiry,synthetic,pending
+Please help me confirm a move-in date with the seller today,high_intent_inquiry,synthetic,pending
+Can we schedule the home inspection for next Tuesday?,high_intent_inquiry,synthetic,pending
+I want to order an inspection before my contingency deadline,high_intent_inquiry,synthetic,pending
+Please arrange an appraisal for the property we're buying,high_intent_inquiry,synthetic,pending
+Can the seller send the disclosure package today?,high_intent_inquiry,synthetic,pending
+I need to review the HOA documents before signing tomorrow,high_intent_inquiry,synthetic,pending
+Please confirm the inspection appointment with the agent,high_intent_inquiry,synthetic,pending
+Can you connect me with an inspector this week?,high_intent_inquiry,synthetic,pending
+We are under contract; how do we schedule the final walkthrough?,high_intent_inquiry,synthetic,pending
+I need to send the earnest-money deposit instructions today,high_intent_inquiry,synthetic,pending
+Can I get the seller's repair response before the deadline?,high_intent_inquiry,synthetic,pending
+I have preapproval and want to tour this house today,high_intent_inquiry,synthetic,pending
+Can I send my lender's preapproval letter with an offer tomorrow?,high_intent_inquiry,synthetic,pending
+I want to start the mortgage application for this specific home,high_intent_inquiry,synthetic,pending
+Please connect my loan officer with the listing agent this week,high_intent_inquiry,synthetic,pending
+Can you request the estimated closing costs for this purchase?,high_intent_inquiry,synthetic,pending
+My financing is ready; when can we schedule a showing?,high_intent_inquiry,synthetic,pending
+I need a lender confirmation before submitting the offer tonight,high_intent_inquiry,synthetic,pending
+Can we lock the mortgage rate for this purchase today?,high_intent_inquiry,synthetic,pending
+I have proof of funds and would like to make an offer this week,high_intent_inquiry,synthetic,pending
+Please ask the agent what financing documents are needed now,high_intent_inquiry,synthetic,pending
+Can you register me for the open house this Saturday?,high_intent_inquiry,synthetic,pending
+Is there a tour slot available at the property this weekend?,high_intent_inquiry,synthetic,pending
+I'd like to attend the open house tomorrow at noon,high_intent_inquiry,synthetic,pending
+Please set up a video walkthrough with the agent today,high_intent_inquiry,synthetic,pending
+Can you book a second viewing with my family on Sunday?,high_intent_inquiry,synthetic,pending
+I want to bring my contractor for a visit later this week,high_intent_inquiry,synthetic,pending
+Could you arrange an evening appointment to see the condo?,high_intent_inquiry,synthetic,pending
+I need to view the home before the offer window closes,high_intent_inquiry,synthetic,pending
+Please schedule a same-day virtual tour of this listing,high_intent_inquiry,synthetic,pending
+Can you confirm the address and check-in details for tomorrow's open house?,high_intent_inquiry,synthetic,pending

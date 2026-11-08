@@ -1,0 +1,22 @@
+query,intent,predicted_intent,confidence,low_confidence,correct,source
+Any bungalows with a basement around Escondido?,browsing,browsing,0.7014338086965047,False,True,synthetic_stress_test
+List condos with two parking spaces,browsing,browsing,0.42003085922956146,True,True,synthetic_stress_test
+I'm just looking at what's for sale in Del Mar,browsing,researching,0.6141375310628671,False,False,synthetic_stress_test
+Show listings featuring vaulted ceilings and a sunroom,browsing,browsing,0.5077036866618634,True,True,synthetic_stress_test
+Are there small homes with an ADU in Chula Vista?,browsing,browsing,0.48558989391412904,True,True,synthetic_stress_test
+Pull up listings below 750k with three bathrooms,browsing,browsing,0.4896236446175704,True,True,synthetic_stress_test
+What duplexes are for sale in San Marcos?,browsing,researching,0.6537962439804974,False,False,synthetic_stress_test
+Has the median sale-to-list ratio shifted since spring?,researching,high_intent_inquiry,0.5341797701262828,True,False,synthetic_stress_test
+Would a newer home cost less to heat than an older one?,researching,researching,0.44603812691883377,True,True,synthetic_stress_test
+How does property tax assessment work after a purchase?,researching,researching,0.46633713161520696,True,True,synthetic_stress_test
+What are the downsides of living next to power lines?,researching,researching,0.5418076436095527,True,True,synthetic_stress_test
+What percentage of listings get price cuts before selling?,researching,researching,0.45559110899967437,True,True,synthetic_stress_test
+Do homes with ADUs appreciate faster than similar homes?,researching,browsing,0.5888293416819558,True,False,synthetic_stress_test
+How can I calculate the break-even point for renting versus buying?,researching,high_intent_inquiry,0.43978513711731615,True,False,synthetic_stress_test
+Could you put me down for a tour at 10 am on Monday?,high_intent_inquiry,high_intent_inquiry,0.49966765646291345,True,True,synthetic_stress_test
+Please forward my offer letter to the seller's agent tonight,high_intent_inquiry,high_intent_inquiry,0.7608203883370177,False,True,synthetic_stress_test
+I want to sign the purchase agreement today,high_intent_inquiry,high_intent_inquiry,0.721541126036934,False,True,synthetic_stress_test
+Can someone meet me at the property in an hour?,high_intent_inquiry,high_intent_inquiry,0.5791861294852563,True,True,synthetic_stress_test
+I'm ready to wire the deposit; please send escrow details,high_intent_inquiry,high_intent_inquiry,0.6395894469819063,False,True,synthetic_stress_test
+Set up a final walkthrough before closing this Friday,high_intent_inquiry,high_intent_inquiry,0.5636324210898072,True,True,synthetic_stress_test
+Please call the agent and arrange an appointment this evening,high_intent_inquiry,high_intent_inquiry,0.7289273226336062,False,True,synthetic_stress_test

@@ -1,0 +1,43 @@
+query,intent,source,predicted_intent,confidence,correct,prob_browsing,prob_high_intent_inquiry,prob_researching
+Find recently renovated properties,browsing,week4_sample,browsing,0.7162580446333976,True,0.7162580446333976,0.12620923134071324,0.15753272402588922
+How can I evaluate whether a listing price is reasonable?,researching,synthetic,high_intent_inquiry,0.42389537438057595,False,0.15303482005557487,0.42389537438057595,0.4230698055638492
+I'd like to tour the newly listed townhouse before the weekend,high_intent_inquiry,synthetic,high_intent_inquiry,0.6132099274222658,True,0.17812454437659084,0.6132099274222658,0.20866552820114337
+What does a rising inventory level usually mean for negotiations?,researching,synthetic,researching,0.6181653554585541,True,0.15226736098180405,0.2295672835596419,0.6181653554585541
+Can we visit the property tomorrow before submitting an offer?,high_intent_inquiry,synthetic,high_intent_inquiry,0.7695670809094166,True,0.09210373884846818,0.7695670809094166,0.1383291802421153
+Which areas offer more public green space per resident?,researching,synthetic,researching,0.5213883738777814,True,0.1987131805736164,0.27989844554860216,0.5213883738777814
+Please schedule a same-day virtual tour of this listing,high_intent_inquiry,synthetic,high_intent_inquiry,0.620882216111854,True,0.1568402490939175,0.620882216111854,0.22227753479422843
+Show me homes with easy freeway access,browsing,week4_sample,browsing,0.9019583417000046,True,0.9019583417000046,0.04615411154905695,0.05188754675093861
+Who should receive my signed offer documents?,high_intent_inquiry,synthetic,high_intent_inquiry,0.45448706733852695,True,0.1662431261751055,0.45448706733852695,0.37926980648636743
+Is there a tour slot available at the property this weekend?,high_intent_inquiry,synthetic,high_intent_inquiry,0.5737281744112152,True,0.16424146592197825,0.5737281744112152,0.26203035966680654
+Show me townhouses with at least 2 bathrooms,browsing,week4_sample,browsing,0.651492920410564,True,0.651492920410564,0.17995598661640858,0.1685510929730274
+Compare townhouse ownership responsibilities with condo ownership,researching,synthetic,researching,0.4523711492456063,True,0.27800210336498454,0.2696267473894092,0.4523711492456063
+I want to make a counteroffer to the seller by tonight,high_intent_inquiry,synthetic,high_intent_inquiry,0.6847656457373679,True,0.13109515728170587,0.6847656457373679,0.18413919698092615
+Please ask the agent what financing documents are needed now,high_intent_inquiry,synthetic,high_intent_inquiry,0.5201887468769362,True,0.155959682593919,0.5201887468769362,0.32385157052914476
+What should buyers research about earthquake retrofit requirements?,researching,synthetic,researching,0.6712685171596882,True,0.15359607414271426,0.1751354086975976,0.6712685171596882
+Show me townhomes with 2 car garages,browsing,week4_sample,browsing,0.8368427820603597,True,0.8368427820603597,0.09125946509719483,0.07189775284244551
+What are the benefits and drawbacks of buying a home with solar panels?,researching,synthetic,researching,0.604299446428351,True,0.1678362053749878,0.2278643481966612,0.604299446428351
+Browse small single-story houses in Carlsbad,browsing,synthetic,researching,0.43905237339628583,False,0.3220761978957902,0.23887142870792388,0.43905237339628583
+What information belongs in a comparative market analysis?,researching,synthetic,researching,0.6678661830992834,True,0.17585234530949384,0.15628147159122285,0.6678661830992834
+Find listings overlooking a golf course,browsing,week4_sample,browsing,0.7141884306415331,True,0.7141884306415331,0.13985362668165716,0.14595794267680953
+Find 3 bedroom homes in San Diego,browsing,week4_sample,browsing,0.4309212994407947,True,0.4309212994407947,0.16469327390337232,0.4043854266558331
+I want to start the mortgage application for this specific home,high_intent_inquiry,synthetic,high_intent_inquiry,0.6587296918171028,True,0.11759102975857591,0.6587296918171028,0.22367927842432128
+Can my agent send an updated offer before 5 pm?,high_intent_inquiry,synthetic,high_intent_inquiry,0.7478087969776518,True,0.10478795076249865,0.7478087969776518,0.14740325225984954
+Show me remodeled homes,browsing,week4_sample,browsing,0.9278172851123343,True,0.9278172851123343,0.03827578690458592,0.033906927983079746
+Can I schedule a private showing of this house tomorrow?,high_intent_inquiry,synthetic,high_intent_inquiry,0.6666080202536226,True,0.1355959314874737,0.6666080202536226,0.1977960482589035
+Find properties with a laundry room,browsing,week4_sample,browsing,0.7860273625537233,True,0.7860273625537233,0.10356016379818304,0.11041247364809362
+Browse homes that have a dedicated workshop,browsing,synthetic,browsing,0.40349767998357705,True,0.40349767998357705,0.23535121436603487,0.36115110565038805
+Show me listings with a dog park,browsing,week4_sample,browsing,0.7604863487236134,True,0.7604863487236134,0.1235192728246902,0.11599437845169637
+How do utility bills compare for similar houses with different insulation?,researching,synthetic,researching,0.6250619552244615,True,0.21474436219131454,0.16019368258422398,0.6250619552244615
+Find newly updated listings,browsing,week4_sample,browsing,0.6469668720829144,True,0.6469668720829144,0.17072767461830143,0.18230545329878414
+Compare appreciation and rental income potential for two neighborhoods,researching,synthetic,researching,0.64167599542635,True,0.15818752740865938,0.2001364771649906,0.64167599542635
+Show me homes with recessed lighting,browsing,week4_sample,browsing,0.9491940204757588,True,0.9491940204757588,0.026404706667971924,0.024401272856269276
+Show me waterfront condos with balconies,browsing,synthetic,browsing,0.8093954712328458,True,0.8093954712328458,0.09787542068566263,0.09272910808149157
+Compare the long-term cost of buying a condo versus a detached house,researching,synthetic,researching,0.5411001337032884,True,0.16915995142010803,0.28973991487660355,0.5411001337032884
+How can I assess traffic congestion around two school districts?,researching,synthetic,researching,0.47416967309027536,True,0.17285273895230002,0.3529775879574246,0.47416967309027536
+Can we schedule the home inspection for next Tuesday?,high_intent_inquiry,synthetic,high_intent_inquiry,0.696651491227925,True,0.11099293310078087,0.696651491227925,0.1923555756712942
+I need to review the HOA documents before signing tomorrow,high_intent_inquiry,synthetic,high_intent_inquiry,0.6702183457723349,True,0.13120604644329312,0.6702183457723349,0.1985756077843722
+Can you arrange a call with the seller's representative tomorrow?,high_intent_inquiry,synthetic,high_intent_inquiry,0.7289720941847329,True,0.1357692631699158,0.7289720941847329,0.13525864264535123
+How long do tile roofs typically last compared with asphalt roofs?,researching,synthetic,researching,0.5861343948437838,True,0.22276639835705886,0.19109920679915735,0.5861343948437838
+Browse listings in neighborhoods with tree-lined streets,browsing,synthetic,browsing,0.4924077385427772,True,0.4924077385427772,0.19248317316304492,0.315109088294178
+How do seasonality and interest rates affect local housing demand?,researching,synthetic,researching,0.6891427779908232,True,0.1282677949903499,0.1825894270188268,0.6891427779908232
+Can I put in an offer at the asking price this afternoon?,high_intent_inquiry,synthetic,high_intent_inquiry,0.5966915751852874,True,0.1312938471939393,0.5966915751852874,0.27201457762077347

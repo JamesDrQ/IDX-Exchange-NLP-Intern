@@ -1,0 +1,61 @@
+query,week4_intent,intent
+Show me condos in Irvine under 1.5 million,property_search,browsing
+Find 3 bedroom homes in San Diego,property_search,browsing
+Show me townhouses with at least 2 bathrooms,property_search,browsing
+Find single family homes under 900000,property_search,browsing
+Show me homes with more than 2000 square feet,property_search,browsing
+Find properties with a pool,amenity_search,browsing
+Show me homes with a spa,amenity_search,browsing
+Find listings in gated communities,amenity_search,browsing
+Show me homes near a clubhouse,amenity_search,browsing
+Find properties with tennis courts,amenity_search,browsing
+Show me homes close to the beach,location_search,browsing
+Find properties near shopping and dining,location_search,browsing
+Show me homes near good schools,location_search,browsing
+Find listings within walking distance of downtown,location_search,browsing
+Show me homes with easy freeway access,location_search,browsing
+Find homes with granite countertops,feature_search,browsing
+Show me listings with stainless steel appliances,feature_search,browsing
+Find homes with walk-in closets,feature_search,browsing
+Show me properties with a home office,feature_search,browsing
+Find houses with an open floor plan,feature_search,browsing
+Show me remodeled homes,condition_search,browsing
+Find recently renovated properties,condition_search,browsing
+Show me move-in ready homes,condition_search,browsing
+Find newly updated listings,condition_search,browsing
+Show me well maintained properties,condition_search,browsing
+Find homes with ocean views,view_search,browsing
+Show me houses with mountain views,view_search,browsing
+Find properties with city views,view_search,browsing
+Show me homes with panoramic views,view_search,browsing
+Find listings overlooking a golf course,view_search,browsing
+Show me homes with low HOA fees,financial_search,researching
+Find properties with no HOA,financial_search,researching
+Show me investment properties,financial_search,browsing
+Find listings with rental income,financial_search,browsing
+Show me homes with a recent price reduction,financial_search,browsing
+Show me 2 bedroom condos near downtown,property_search,browsing
+Find homes under 800000 with at least 3 bedrooms,property_search,browsing
+Show me townhomes with 2 car garages,property_search,browsing
+Find properties larger than 2500 square feet,property_search,browsing
+Show me single family homes with 4 bedrooms,property_search,browsing
+Find homes with a community pool,amenity_search,browsing
+Show me properties with a fitness center,amenity_search,browsing
+Find homes with a playground nearby,amenity_search,browsing
+Show me listings with a dog park,amenity_search,browsing
+Find homes in communities with walking trails,amenity_search,browsing
+Show me properties close to restaurants,location_search,browsing
+Find homes near parks,location_search,browsing
+Show me houses near shopping centers,location_search,browsing
+Find properties close to major freeways,location_search,browsing
+Show me homes near the beach,location_search,browsing
+Find houses with hardwood floors,feature_search,browsing
+Show me homes with recessed lighting,feature_search,browsing
+Find properties with a laundry room,feature_search,browsing
+Show me houses with a family room,feature_search,browsing
+Find homes with a large kitchen island,feature_search,browsing
+Show me recently upgraded homes,condition_search,browsing
+Find turnkey properties,condition_search,browsing
+Show me homes with panoramic ocean views,view_search,browsing
+Find houses with mountain views,view_search,browsing
+Show me properties with low monthly HOA fees,financial_search,researching
