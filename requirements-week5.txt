@@ -1,0 +1,7 @@
+# Optional semantic-search / BM25 workflows; not required for Week 8 rules.
+-r requirements.txt
+rank-bm25==0.2.2
+sentence-transformers==6.2.0
+# FAISS is separately managed by conda in the working environment:
+# conda install -c conda-forge faiss=1.14.3
+# Do not assume a same-version faiss-cpu PyPI wheel exists for every platform.

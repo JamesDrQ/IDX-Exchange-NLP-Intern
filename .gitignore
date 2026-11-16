@@ -27,3 +27,15 @@ data/processed/*export*.csv
 data/processed/week6*review*.csv
 data/processed/week6*backup*.csv
 data/processed/week6*.jsonl
+
+# Local environments and private Week 8 evidence (retain locally).
+.venv/
+venv/
+*.key
+*.p12
+*.pfx
+data/annotations/week8/
+data/annotations/week8_review/
+data/processed/week8_summaries*/
+data/processed/week8_search_demo/
+data/processed/week8_eval/

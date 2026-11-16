@@ -14,13 +14,15 @@ def test_packages():
 
 
 def test_mysql_connection():
-    conn = mysql.connector.connect(
-        host="localhost",
-        port=3306,
-        user="root",
-        password="rootpass",
-        database="real_estate",
-    )
+    import os
+    import pytest
+    from scripts.database_config import mysql_settings
 
-    assert conn.is_connected()
-    conn.close()
+    if os.getenv("RUN_MYSQL_INTEGRATION") != "1":
+        pytest.skip("Live MySQL check requires RUN_MYSQL_INTEGRATION=1")
+    settings = mysql_settings()
+    conn = mysql.connector.connect(**settings)
+    try:
+        assert conn.is_connected()
+    finally:
+        conn.close()

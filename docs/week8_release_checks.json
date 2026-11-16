@@ -1,0 +1,57 @@
+{
+  "freeze_valid": true,
+  "split_sizes": {
+    "dev": 70,
+    "test": 30
+  },
+  "freeze_sha256": "e49caa8ee79fbd865676c6f9186e13644fd7b66a0921b00f0e44a165cb63c8ae",
+  "artifact_hashes": {
+    "models_frozen": true,
+    "normalization": "Unicode NFKC + casefold; Unicode alphanumeric tokens excluding underscores; no stemming; document-level LCS; macro mean F1",
+    "prediction_hashes": {
+      "dev": "f0d6395cbf57206cdf61baa409392acef30ca49975f4241d795acf57e560db3f",
+      "test": "047027a2d0227ebcfa13fb38727b24cbf6b9cafb889b67c1168e0a42d9fa5a4d"
+    },
+    "prediction_run_sha256": "1901f1b0275cb32cf940c17b9bac5b3f26897737c3a86e53de68575e1f567020",
+    "dataset_manifest_sha256": "49afe718069432e7a91f1c92acc57b49cc7f764b51c5dd2213c4f955425941bf",
+    "evaluator_sha256": "81ba4940e3ed0b6c2794770aa190b0bda2a9df16daae75c81e4942f42e14fd86"
+  },
+  "code_sha256": {
+    "listing_summarizer.py": "1d85abc48fbd37911bd33b3aac3a6a6acf5e728c5eafb5fccd02b24f5afe83a7",
+    "generate_week8_summaries.py": "69b201c90a9aa41fb1e0b76dfbdd361e8b46c26b7bcbb5f6ef269b4e9bc58c7e",
+    "entity_extractor.py": "d9fbe31e5c11e8e096fe3a97f7aa0b7ee771f950a0e4cde77c3729c0bf7f70ab",
+    "signal_extractor.py": "e5a11f37d30f7725052d5c48a04dc3460108ddbe30c9170c0680bd4a69e6160c"
+  },
+  "saved_results": {
+    "dev": {
+      "lead2": {
+        "sample_count": 30,
+        "mean_rouge_l_f1": 0.20272659811431948
+      },
+      "extractive": {
+        "sample_count": 30,
+        "mean_rouge_l_f1": 0.2477984561064714
+      },
+      "hybrid": {
+        "sample_count": 30,
+        "mean_rouge_l_f1": 0.41903472547172027
+      }
+    },
+    "test": {
+      "lead2": {
+        "sample_count": 30,
+        "mean_rouge_l_f1": 0.23395221076027484
+      },
+      "extractive": {
+        "sample_count": 30,
+        "mean_rouge_l_f1": 0.24004192488005469
+      },
+      "hybrid": {
+        "sample_count": 30,
+        "mean_rouge_l_f1": 0.36889326340688183
+      }
+    }
+  },
+  "evaluation_rerun": false,
+  "predictions_regenerated": false
+}

@@ -41,17 +41,11 @@ def replace_report_section(text: str) -> None:
 
 
 def mysql_connection():
-    """Use project MySQL environment names with data_loading.py defaults."""
+    """Require explicit environment credentials, shared with the data loader."""
     import mysql.connector
+    from scripts.database_config import mysql_settings
 
-    return mysql.connector.connect(
-        host=os.getenv("MYSQL_HOST") or os.getenv("DB_HOST") or "localhost",
-        port=int(os.getenv("MYSQL_PORT") or os.getenv("DB_PORT") or "3306"),
-        user=os.getenv("MYSQL_USER") or os.getenv("DB_USER") or "root",
-        password=os.getenv("MYSQL_PASSWORD") or os.getenv("DB_PASSWORD") or "rootpass",
-        database=os.getenv("MYSQL_DATABASE") or os.getenv("DB_NAME") or "real_estate",
-        connection_timeout=5,
-    )
+    return mysql.connector.connect(**mysql_settings())
 
 
 def fetch_listings() -> pd.DataFrame:
@@ -175,7 +169,7 @@ def write_unavailable(reason: str) -> None:
         "The benchmark requires the project's MySQL connection settings "
         "(`MYSQL_HOST`/`DB_HOST`, `MYSQL_PORT`/`DB_PORT`, `MYSQL_USER`/`DB_USER`, "
         "`MYSQL_PASSWORD`/`DB_PASSWORD`, and optionally `MYSQL_DATABASE`/`DB_NAME`). "
-        "When omitted, it uses the defaults in `scripts/data_loading.py`.\n"
+        "User, password, and database must be set explicitly in the environment.\n"
     )
     replace_report_section(text)
 
