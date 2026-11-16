@@ -1,13 +1,12 @@
+"""Export a local listing sample using explicit environment credentials."""
+from pathlib import Path
 import mysql.connector
 import pandas as pd
 
-conn = mysql.connector.connect(
-    host="localhost",
-    port=3306,
-    user="root",
-    password="rootpass",
-    database="real_estate",
-)
+if __package__:
+    from .database_config import mysql_settings
+else:
+    from database_config import mysql_settings
 
 query = """
 SELECT
@@ -25,13 +24,18 @@ ORDER BY RAND()
 LIMIT 1000
 """
 
-df = pd.read_sql(query, conn)
 
-df.to_csv(
-    "data/processed/listing_sample.csv",
-    index=False
-)
+def load_sample(output="data/processed/listing_sample.csv"):
+    settings = mysql_settings()  # Validate before attempting a connection.
+    conn = mysql.connector.connect(**settings)
+    try:
+        df = pd.read_sql(query, conn)
+        Path(output).parent.mkdir(parents=True, exist_ok=True)
+        df.to_csv(output, index=False)
+        return len(df)
+    finally:
+        conn.close()
 
-conn.close()
 
-print(f"Saved {len(df)} listings")
+if __name__ == "__main__":
+    print(f"Saved {load_sample()} listings")

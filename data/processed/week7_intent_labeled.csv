@@ -1,0 +1,211 @@
+query,intent,source
+Show me condos in Irvine under 1.5 million,browsing,week4_sample
+Find 3 bedroom homes in San Diego,browsing,week4_sample
+Show me townhouses with at least 2 bathrooms,browsing,week4_sample
+Find single family homes under 900000,browsing,week4_sample
+Show me homes with more than 2000 square feet,browsing,week4_sample
+Find properties with a pool,browsing,week4_sample
+Show me homes with a spa,browsing,week4_sample
+Find listings in gated communities,browsing,week4_sample
+Show me homes near a clubhouse,browsing,week4_sample
+Find properties with tennis courts,browsing,week4_sample
+Show me homes close to the beach,browsing,week4_sample
+Find properties near shopping and dining,browsing,week4_sample
+Show me homes near good schools,browsing,week4_sample
+Find listings within walking distance of downtown,browsing,week4_sample
+Show me homes with easy freeway access,browsing,week4_sample
+Find homes with granite countertops,browsing,week4_sample
+Show me listings with stainless steel appliances,browsing,week4_sample
+Find homes with walk-in closets,browsing,week4_sample
+Show me properties with a home office,browsing,week4_sample
+Find houses with an open floor plan,browsing,week4_sample
+Show me remodeled homes,browsing,week4_sample
+Find recently renovated properties,browsing,week4_sample
+Show me move-in ready homes,browsing,week4_sample
+Find newly updated listings,browsing,week4_sample
+Show me well maintained properties,browsing,week4_sample
+Find homes with ocean views,browsing,week4_sample
+Show me houses with mountain views,browsing,week4_sample
+Find properties with city views,browsing,week4_sample
+Show me homes with panoramic views,browsing,week4_sample
+Find listings overlooking a golf course,browsing,week4_sample
+Show me homes with low HOA fees,browsing,week4_sample
+Find properties with no HOA,browsing,week4_sample
+Show me investment properties,browsing,week4_sample
+Find listings with rental income,browsing,week4_sample
+Show me homes with a recent price reduction,browsing,week4_sample
+Show me 2 bedroom condos near downtown,browsing,week4_sample
+Find homes under 800000 with at least 3 bedrooms,browsing,week4_sample
+Show me townhomes with 2 car garages,browsing,week4_sample
+Find properties larger than 2500 square feet,browsing,week4_sample
+Show me single family homes with 4 bedrooms,browsing,week4_sample
+Find homes with a community pool,browsing,week4_sample
+Show me properties with a fitness center,browsing,week4_sample
+Find homes with a playground nearby,browsing,week4_sample
+Show me listings with a dog park,browsing,week4_sample
+Find homes in communities with walking trails,browsing,week4_sample
+Show me properties close to restaurants,browsing,week4_sample
+Find homes near parks,browsing,week4_sample
+Show me houses near shopping centers,browsing,week4_sample
+Find properties close to major freeways,browsing,week4_sample
+Show me homes near the beach,browsing,week4_sample
+Find houses with hardwood floors,browsing,week4_sample
+Show me homes with recessed lighting,browsing,week4_sample
+Find properties with a laundry room,browsing,week4_sample
+Show me houses with a family room,browsing,week4_sample
+Find homes with a large kitchen island,browsing,week4_sample
+Show me recently upgraded homes,browsing,week4_sample
+Find turnkey properties,browsing,week4_sample
+Show me homes with panoramic ocean views,browsing,week4_sample
+Find houses with mountain views,browsing,week4_sample
+Show me properties with low monthly HOA fees,browsing,week4_sample
+Browse small single-story houses in Carlsbad,browsing,synthetic
+What homes are available with a detached guest suite?,browsing,synthetic
+Show loft-style condos with high ceilings,browsing,synthetic
+Find houses with a covered backyard patio,browsing,synthetic
+Browse listings in neighborhoods with tree-lined streets,browsing,synthetic
+Show homes with a separate dining room,browsing,synthetic
+Find duplex listings in North County,browsing,synthetic
+Are there ranch-style homes with large lots?,browsing,synthetic
+Show me waterfront condos with balconies,browsing,synthetic
+Browse homes that have a dedicated workshop,browsing,synthetic
+Find houses with an upstairs laundry room,browsing,synthetic
+Show properties featuring a three-car garage,browsing,synthetic
+Browse newly listed cottages near La Mesa,browsing,synthetic
+How have median home prices changed in Irvine over five years?,researching,synthetic
+Compare price per square foot for condos and townhouses in San Diego,researching,synthetic
+Which neighborhoods offer the best value for a first-time buyer?,researching,synthetic
+How much do homes typically sell above asking price in Carlsbad?,researching,synthetic
+What is the average time on market for houses in La Jolla?,researching,synthetic
+Compare the long-term cost of buying a condo versus a detached house,researching,synthetic
+How do property prices differ between coastal and inland neighborhoods?,researching,synthetic
+What price trends should I expect in North County next year?,researching,synthetic
+Which zip codes have seen the largest home price declines?,researching,synthetic
+How do recently sold prices compare with current asking prices?,researching,synthetic
+What are the differences in school ratings between Carmel Valley and Poway?,researching,synthetic
+Compare neighborhood walkability in Encinitas and Solana Beach,researching,synthetic
+Which San Diego areas have shorter average commutes to downtown?,researching,synthetic
+How do noise levels compare near major freeways?,researching,synthetic
+What are the pros and cons of living near an airport?,researching,synthetic
+Which neighborhoods have reliable access to public transit?,researching,synthetic
+How do local crime statistics vary between these communities?,researching,synthetic
+Compare grocery and park access in Mira Mesa and Scripps Ranch,researching,synthetic
+What should I know about future development near this neighborhood?,researching,synthetic
+Which areas offer more public green space per resident?,researching,synthetic
+How do rental yields compare between duplexes and single-family houses?,researching,synthetic
+What vacancy rates are typical for investment condos in San Diego?,researching,synthetic
+Compare cap rates for properties in Oceanside versus Vista,researching,synthetic
+Which expenses should I include in a rental cash-flow calculation?,researching,synthetic
+How much does property management typically reduce net rental income?,researching,synthetic
+What are the risks of buying a short-term rental property?,researching,synthetic
+How do maintenance costs affect returns on older rental homes?,researching,synthetic
+Compare appreciation and rental income potential for two neighborhoods,researching,synthetic
+Is a duplex generally easier to rent than a large luxury house?,researching,synthetic
+How should I estimate return on investment for a fixer-upper?,researching,synthetic
+How do annual property taxes differ between these two houses?,researching,synthetic
+What is included in the monthly HOA fee for this condo complex?,researching,synthetic
+Compare total monthly ownership costs with and without an HOA,researching,synthetic
+How much should I budget for homeowners insurance near the coast?,researching,synthetic
+What special assessments have been charged in this HOA?,researching,synthetic
+How do mortgage points change the long-term cost of a loan?,researching,synthetic
+What would a higher interest rate do to my monthly payment?,researching,synthetic
+Compare the costs of a 15-year and 30-year mortgage,researching,synthetic
+Are there differences in insurance costs between condos and houses?,researching,synthetic
+How much should I reserve annually for home maintenance?,researching,synthetic
+What are the tradeoffs between buying new construction and an older home?,researching,synthetic
+Compare townhouse ownership responsibilities with condo ownership,researching,synthetic
+Which home features contribute most to resale value?,researching,synthetic
+How long do tile roofs typically last compared with asphalt roofs?,researching,synthetic
+What are the benefits and drawbacks of buying a home with solar panels?,researching,synthetic
+How does lot size affect a property's long-term value?,researching,synthetic
+What should I consider when comparing two different floor plans?,researching,synthetic
+Do homes with an additional bathroom command higher resale prices?,researching,synthetic
+Which renovations tend to have the strongest return at resale?,researching,synthetic
+How should I compare homes with different amounts of usable space?,researching,synthetic
+Which neighborhoods face greater wildfire exposure?,researching,synthetic
+How can I compare flood risk for homes near the coast?,researching,synthetic
+What should buyers research about earthquake retrofit requirements?,researching,synthetic
+How do summer temperatures differ across inland San Diego areas?,researching,synthetic
+Which communities have more restrictive short-term rental rules?,researching,synthetic
+What questions should I ask about an older home's plumbing system?,researching,synthetic
+How can I assess traffic congestion around two school districts?,researching,synthetic
+What should I check in a neighborhood's future zoning plans?,researching,synthetic
+How do utility bills compare for similar houses with different insulation?,researching,synthetic
+What should I research about water restrictions before buying?,researching,synthetic
+Is this market currently favoring buyers or sellers?,researching,synthetic
+What does a rising inventory level usually mean for negotiations?,researching,synthetic
+How can I evaluate whether a listing price is reasonable?,researching,synthetic
+Compare recent sales concessions across neighboring zip codes,researching,synthetic
+What factors make a home more difficult to resell?,researching,synthetic
+How do seasonality and interest rates affect local housing demand?,researching,synthetic
+What information belongs in a comparative market analysis?,researching,synthetic
+Can I schedule a private showing of this house tomorrow?,high_intent_inquiry,synthetic
+Book a tour of the listing on Oak Street for Saturday morning,high_intent_inquiry,synthetic
+I'd like to see this condo in person after work today,high_intent_inquiry,synthetic
+Is there an agent who can show me this property this afternoon?,high_intent_inquiry,synthetic
+Please arrange back-to-back tours of these two houses on Sunday,high_intent_inquiry,synthetic
+Can someone confirm a viewing appointment for Friday at 3 pm?,high_intent_inquiry,synthetic
+I'd like to tour the newly listed townhouse before the weekend,high_intent_inquiry,synthetic
+Help me book an in-person visit to this home as soon as possible,high_intent_inquiry,synthetic
+Can we visit the property tomorrow before submitting an offer?,high_intent_inquiry,synthetic
+Please reserve the earliest available showing slot for this listing,high_intent_inquiry,synthetic
+Connect me with the listing agent about buying this condo,high_intent_inquiry,synthetic
+Can the seller's agent call me today about this property?,high_intent_inquiry,synthetic
+I want to ask the agent whether the house is still available,high_intent_inquiry,synthetic
+Please send my contact details to the agent for this listing,high_intent_inquiry,synthetic
+Can you arrange a call with the seller's representative tomorrow?,high_intent_inquiry,synthetic
+I'd like an agent to walk me through the next steps this week,high_intent_inquiry,synthetic
+Please have someone contact me to discuss a specific property,high_intent_inquiry,synthetic
+Can I speak to the listing agent before tonight's deadline?,high_intent_inquiry,synthetic
+I need an agent to help coordinate a visit this weekend,high_intent_inquiry,synthetic
+Who can I contact right now to discuss this home?,high_intent_inquiry,synthetic
+I am ready to submit an offer on this house today,high_intent_inquiry,synthetic
+How do I send a written offer for this listed property?,high_intent_inquiry,synthetic
+Please help me prepare a purchase offer before the deadline,high_intent_inquiry,synthetic
+Can I put in an offer at the asking price this afternoon?,high_intent_inquiry,synthetic
+I want to make a counteroffer to the seller by tonight,high_intent_inquiry,synthetic
+Who should receive my signed offer documents?,high_intent_inquiry,synthetic
+Can we submit an offer contingent on inspection tomorrow?,high_intent_inquiry,synthetic
+I have chosen this property and want to start the offer process,high_intent_inquiry,synthetic
+Can my agent send an updated offer before 5 pm?,high_intent_inquiry,synthetic
+Please confirm whether the seller is accepting offers this week,high_intent_inquiry,synthetic
+I need a home I can move into before the end of this month,high_intent_inquiry,synthetic
+Can I close on this property within the next 30 days?,high_intent_inquiry,synthetic
+I'm relocating next week and need to arrange a viewing now,high_intent_inquiry,synthetic
+Is this vacant home available for immediate occupancy?,high_intent_inquiry,synthetic
+I want to finalize a purchase before my lease expires next month,high_intent_inquiry,synthetic
+Can the seller accommodate a closing date of December 10?,high_intent_inquiry,synthetic
+I need to move quickly; when can we inspect this house?,high_intent_inquiry,synthetic
+Can we begin the purchase paperwork this week?,high_intent_inquiry,synthetic
+I'm ready to proceed if this home can close within six weeks,high_intent_inquiry,synthetic
+Please help me confirm a move-in date with the seller today,high_intent_inquiry,synthetic
+Can we schedule the home inspection for next Tuesday?,high_intent_inquiry,synthetic
+I want to order an inspection before my contingency deadline,high_intent_inquiry,synthetic
+Please arrange an appraisal for the property we're buying,high_intent_inquiry,synthetic
+Can the seller send the disclosure package today?,high_intent_inquiry,synthetic
+I need to review the HOA documents before signing tomorrow,high_intent_inquiry,synthetic
+Please confirm the inspection appointment with the agent,high_intent_inquiry,synthetic
+Can you connect me with an inspector this week?,high_intent_inquiry,synthetic
+We are under contract; how do we schedule the final walkthrough?,high_intent_inquiry,synthetic
+I need to send the earnest-money deposit instructions today,high_intent_inquiry,synthetic
+Can I get the seller's repair response before the deadline?,high_intent_inquiry,synthetic
+I have preapproval and want to tour this house today,high_intent_inquiry,synthetic
+Can I send my lender's preapproval letter with an offer tomorrow?,high_intent_inquiry,synthetic
+I want to start the mortgage application for this specific home,high_intent_inquiry,synthetic
+Please connect my loan officer with the listing agent this week,high_intent_inquiry,synthetic
+Can you request the estimated closing costs for this purchase?,high_intent_inquiry,synthetic
+My financing is ready; when can we schedule a showing?,high_intent_inquiry,synthetic
+I need a lender confirmation before submitting the offer tonight,high_intent_inquiry,synthetic
+Can we lock the mortgage rate for this purchase today?,high_intent_inquiry,synthetic
+I have proof of funds and would like to make an offer this week,high_intent_inquiry,synthetic
+Please ask the agent what financing documents are needed now,high_intent_inquiry,synthetic
+Can you register me for the open house this Saturday?,high_intent_inquiry,synthetic
+Is there a tour slot available at the property this weekend?,high_intent_inquiry,synthetic
+I'd like to attend the open house tomorrow at noon,high_intent_inquiry,synthetic
+Please set up a video walkthrough with the agent today,high_intent_inquiry,synthetic
+Can you book a second viewing with my family on Sunday?,high_intent_inquiry,synthetic
+I want to bring my contractor for a visit later this week,high_intent_inquiry,synthetic
+Could you arrange an evening appointment to see the condo?,high_intent_inquiry,synthetic
+I need to view the home before the offer window closes,high_intent_inquiry,synthetic
+Please schedule a same-day virtual tour of this listing,high_intent_inquiry,synthetic
+Can you confirm the address and check-in details for tomorrow's open house?,high_intent_inquiry,synthetic

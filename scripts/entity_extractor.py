@@ -30,7 +30,7 @@ BATHROOM_RE = re.compile(
     rf"(?:bathrooms?|baths?|ba)\b", re.I
 )
 SQFT_RE = re.compile(
-    r"\b(?:\d{1,3}(?:,\d{3})+|\d+)\s*(?:square\s+feet|sq\.?\s*ft\.?|sqft)\b",
+    r"\b(?:\d{1,3}(?:,\d{3})+|\d+)\s*(?:square\s+f(?:ee|oo)t|sq\.?\s*ft\.?|sqft)\b",
     re.I,
 )
 
@@ -200,7 +200,10 @@ class EntityExtractor:
     def _amenity_spans(self, text):
         found = []
         for term in self._taxonomy_terms:
-            pattern = re.compile(r"(?<!\w)" + re.escape(term) + r"(?!\w)", re.I)
+            body = r"[\s\u2010-\u2015-]+".join(
+                re.escape(piece) for piece in re.split(r"\s+", term.strip()) if piece
+            )
+            pattern = re.compile(r"(?<!\w)" + body + r"(?!\w)", re.I)
             for match in pattern.finditer(text):
                 start, end = match.span()
 
@@ -213,6 +216,18 @@ class EntityExtractor:
                     re.I,
                 ):
                     continue
+
+                # A bare mention of doors is often incidental copy ("front
+                # door", "double doors"). Keep it only when the phrase names
+                # a recognizable door feature; specific taxonomy terms such as
+                # French doors are independently matched below.
+                if term.casefold() == "doors":
+                    preceding = text[max(0, start - 24):start]
+                    if not re.search(
+                        r"\b(?:french|sliding|glass|pocket|patio|interior|exterior|"
+                        r"double|folding|barn)\s+$", preceding, re.I,
+                    ):
+                        continue
 
                 # Some taxonomy entries are bare nouns. Add only an immediately
                 # adjacent known modifier, preserving the shortest useful span.
