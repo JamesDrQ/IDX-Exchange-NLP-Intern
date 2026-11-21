@@ -1,0 +1,501 @@
+{
+  "version": 1,
+  "provenance": "Fresh same-agent synthetic temporal holdout created after v1.2 freeze; fixed labels before scoring. Not independently authored or human-verified. No tuning after scoring.",
+  "label_policy": "Unchanged maximum-severity screening policy; warning/error positive, none/info negative.",
+  "examples": [
+    {
+      "id": "w9-fresh-001",
+      "kind": "known_violation",
+      "text": "Black residents preferred in this complex.",
+      "expected_severity": "error",
+      "categories": [
+        "race"
+      ],
+      "rationale": "Clear resident preference or exclusion; no exception asserted."
+    },
+    {
+      "id": "w9-fresh-002",
+      "kind": "known_violation",
+      "text": "Only light-skinned people may rent.",
+      "expected_severity": "error",
+      "categories": [
+        "color"
+      ],
+      "rationale": "Clear resident preference or exclusion; no exception asserted."
+    },
+    {
+      "id": "w9-fresh-003",
+      "kind": "known_violation",
+      "text": "No Hindus for the downstairs flat.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Clear resident preference or exclusion; no exception asserted."
+    },
+    {
+      "id": "w9-fresh-004",
+      "kind": "known_violation",
+      "text": "Men need not apply for this unit.",
+      "expected_severity": "error",
+      "categories": [
+        "sex"
+      ],
+      "rationale": "Clear resident preference or exclusion; no exception asserted."
+    },
+    {
+      "id": "w9-fresh-005",
+      "kind": "known_violation",
+      "text": "Chinese people only for the vacancy.",
+      "expected_severity": "error",
+      "categories": [
+        "national_origin"
+      ],
+      "rationale": "Clear resident preference or exclusion; no exception asserted."
+    },
+    {
+      "id": "w9-fresh-006",
+      "kind": "known_violation",
+      "text": "No kids in the offered home.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Clear resident preference or exclusion; no exception asserted."
+    },
+    {
+      "id": "w9-fresh-007",
+      "kind": "known_violation",
+      "text": "People with disabilities not welcome here.",
+      "expected_severity": "error",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Clear resident preference or exclusion; no exception asserted."
+    },
+    {
+      "id": "w9-fresh-008",
+      "kind": "indirect",
+      "text": "If your household includes infants, your application would be refused.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Indirect protected-characteristic restriction on housing eligibility."
+    },
+    {
+      "id": "w9-fresh-009",
+      "kind": "indirect",
+      "text": "If you have children you will be turned away.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Indirect protected-characteristic restriction on housing eligibility."
+    },
+    {
+      "id": "w9-fresh-010",
+      "kind": "indirect",
+      "text": "The apartment is available only to households without dependents under 18.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Indirect protected-characteristic restriction on housing eligibility."
+    },
+    {
+      "id": "w9-fresh-011",
+      "kind": "indirect",
+      "text": "Families caring for babies are denied tenancy.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Indirect protected-characteristic restriction on housing eligibility."
+    },
+    {
+      "id": "w9-fresh-012",
+      "kind": "indirect",
+      "text": "Applications from anyone bringing a child will not be considered.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Indirect protected-characteristic restriction on housing eligibility."
+    },
+    {
+      "id": "w9-fresh-013",
+      "kind": "indirect",
+      "text": "You must promise not to have children during the lease.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Indirect protected-characteristic restriction on housing eligibility."
+    },
+    {
+      "id": "w9-fresh-014",
+      "kind": "indirect",
+      "text": "A recommendation from a priest is required to qualify for the home.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Indirect protected-characteristic restriction on housing eligibility."
+    },
+    {
+      "id": "w9-fresh-015",
+      "kind": "indirect",
+      "text": "The unit is restricted to practicing members of the synagogue.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Indirect protected-characteristic restriction on housing eligibility."
+    },
+    {
+      "id": "w9-fresh-016",
+      "kind": "indirect",
+      "text": "Renters shall participate in our worship.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Indirect protected-characteristic restriction on housing eligibility."
+    },
+    {
+      "id": "w9-fresh-017",
+      "kind": "indirect",
+      "text": "A reference from your religious leader is necessary for a lease.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Indirect protected-characteristic restriction on housing eligibility."
+    },
+    {
+      "id": "w9-fresh-018",
+      "kind": "indirect",
+      "text": "Only applicants who share the landlord\u2019s beliefs will be approved.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Indirect protected-characteristic restriction on housing eligibility."
+    },
+    {
+      "id": "w9-fresh-019",
+      "kind": "indirect",
+      "text": "People who use walking aids would be excluded.",
+      "expected_severity": "error",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Indirect protected-characteristic restriction on housing eligibility."
+    },
+    {
+      "id": "w9-fresh-020",
+      "kind": "indirect",
+      "text": "We refuse to rent to occupants who need a walker.",
+      "expected_severity": "error",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Indirect protected-characteristic restriction on housing eligibility."
+    },
+    {
+      "id": "w9-fresh-021",
+      "kind": "indirect",
+      "text": "Applicants have to be capable of independent living.",
+      "expected_severity": "error",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Indirect protected-characteristic restriction on housing eligibility."
+    },
+    {
+      "id": "w9-fresh-022",
+      "kind": "indirect",
+      "text": "Anyone needing a live-in aide is ineligible for the apartment.",
+      "expected_severity": "error",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Indirect protected-characteristic restriction on housing eligibility."
+    },
+    {
+      "id": "w9-fresh-023",
+      "kind": "indirect",
+      "text": "Tenants born outside this country are refused.",
+      "expected_severity": "error",
+      "categories": [
+        "national_origin"
+      ],
+      "rationale": "Indirect protected-characteristic restriction on housing eligibility."
+    },
+    {
+      "id": "w9-fresh-024",
+      "kind": "indirect",
+      "text": "We turn away applicants born overseas.",
+      "expected_severity": "error",
+      "categories": [
+        "national_origin"
+      ],
+      "rationale": "Indirect protected-characteristic restriction on housing eligibility."
+    },
+    {
+      "id": "w9-fresh-025",
+      "kind": "indirect",
+      "text": "Only people born in the United States qualify.",
+      "expected_severity": "error",
+      "categories": [
+        "national_origin"
+      ],
+      "rationale": "Indirect protected-characteristic restriction on housing eligibility."
+    },
+    {
+      "id": "w9-fresh-026",
+      "kind": "compliant",
+      "text": "Black window frames, white plaster walls and a brown tile roof.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, equal access, voluntary condition, negation or explicitly rescinded policy."
+    },
+    {
+      "id": "w9-fresh-027",
+      "kind": "compliant",
+      "text": "French balcony doors open onto an English-style garden.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, equal access, voluntary condition, negation or explicitly rescinded policy."
+    },
+    {
+      "id": "w9-fresh-028",
+      "kind": "compliant",
+      "text": "The former chapel now contains two bedrooms and a study.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, equal access, voluntary condition, negation or explicitly rescinded policy."
+    },
+    {
+      "id": "w9-fresh-029",
+      "kind": "compliant",
+      "text": "Families caring for infants can request a larger apartment.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, equal access, voluntary condition, negation or explicitly rescinded policy."
+    },
+    {
+      "id": "w9-fresh-030",
+      "kind": "compliant",
+      "text": "If your household includes children, your application receives the same consideration.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, equal access, voluntary condition, negation or explicitly rescinded policy."
+    },
+    {
+      "id": "w9-fresh-031",
+      "kind": "compliant",
+      "text": "If you have toddlers, your application will not be refused.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, equal access, voluntary condition, negation or explicitly rescinded policy."
+    },
+    {
+      "id": "w9-fresh-032",
+      "kind": "compliant",
+      "text": "Renters born overseas are welcome to tour.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, equal access, voluntary condition, negation or explicitly rescinded policy."
+    },
+    {
+      "id": "w9-fresh-033",
+      "kind": "compliant",
+      "text": "People who use walking aids can use the level rear entrance.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, equal access, voluntary condition, negation or explicitly rescinded policy."
+    },
+    {
+      "id": "w9-fresh-034",
+      "kind": "compliant",
+      "text": "A reference from a priest is optional; references from other contacts are equally accepted.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, equal access, voluntary condition, negation or explicitly rescinded policy."
+    },
+    {
+      "id": "w9-fresh-035",
+      "kind": "compliant",
+      "text": "A reference from a prior landlord is necessary to qualify for the unit.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, equal access, voluntary condition, negation or explicitly rescinded policy."
+    },
+    {
+      "id": "w9-fresh-036",
+      "kind": "compliant",
+      "text": "The previous requirement that renters shall attend a mosque has been withdrawn.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, equal access, voluntary condition, negation or explicitly rescinded policy."
+    },
+    {
+      "id": "w9-fresh-037",
+      "kind": "compliant",
+      "text": "The old policy that people who use walking aids are rejected was revoked.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, equal access, voluntary condition, negation or explicitly rescinded policy."
+    },
+    {
+      "id": "w9-fresh-038",
+      "kind": "compliant",
+      "text": "The former rule that tenants must attend church was abolished. All beliefs are welcome.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, equal access, voluntary condition, negation or explicitly rescinded policy."
+    },
+    {
+      "id": "w9-fresh-039",
+      "kind": "compliant",
+      "text": "A notice explains that requiring religious participation is prohibited.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, equal access, voluntary condition, negation or explicitly rescinded policy."
+    },
+    {
+      "id": "w9-fresh-040",
+      "kind": "compliant",
+      "text": "Residents are not expected to be self-sufficient; support services are available.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, equal access, voluntary condition, negation or explicitly rescinded policy."
+    },
+    {
+      "id": "w9-fresh-041",
+      "kind": "compliant",
+      "text": "The landlord abolished the requirement for tenants to attend church years ago.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, equal access, voluntary condition, negation or explicitly rescinded policy."
+    },
+    {
+      "id": "w9-fresh-042",
+      "kind": "compliant",
+      "text": "Residents may be self-sufficient or request assistance with daily tasks.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, equal access, voluntary condition, negation or explicitly rescinded policy."
+    },
+    {
+      "id": "w9-fresh-043",
+      "kind": "compliant",
+      "text": "The apartment has an independent heating system and a room for a caregiver.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, equal access, voluntary condition, negation or explicitly rescinded policy."
+    },
+    {
+      "id": "w9-fresh-044",
+      "kind": "compliant",
+      "text": "An accessible entrance leads to the renovated sanctuary.",
+      "expected_severity": "info",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Nonblocking accessibility accuracy guidance."
+    },
+    {
+      "id": "w9-fresh-045",
+      "kind": "compliant",
+      "text": "Step-free access to the courtyard and laundry.",
+      "expected_severity": "info",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Nonblocking accessibility accuracy guidance."
+    },
+    {
+      "id": "w9-fresh-046",
+      "kind": "borderline",
+      "text": "Best suited to households who no longer have children at home.",
+      "expected_severity": "warning",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Suggestive audience/ability language or unverified exception requiring contextual review."
+    },
+    {
+      "id": "w9-fresh-047",
+      "kind": "borderline",
+      "text": "Applicants with young children are not suitable.",
+      "expected_severity": "warning",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Suggestive audience/ability language or unverified exception requiring contextual review."
+    },
+    {
+      "id": "w9-fresh-048",
+      "kind": "borderline",
+      "text": "Occupants are expected to be able to live independently.",
+      "expected_severity": "warning",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Suggestive audience/ability language or unverified exception requiring contextual review."
+    },
+    {
+      "id": "w9-fresh-049",
+      "kind": "borderline",
+      "text": "Residents should be self-sufficient.",
+      "expected_severity": "warning",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Suggestive audience/ability language or unverified exception requiring contextual review."
+    },
+    {
+      "id": "w9-fresh-050",
+      "kind": "borderline",
+      "text": "Renters are encouraged to attend prayer meetings.",
+      "expected_severity": "warning",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Suggestive audience/ability language or unverified exception requiring contextual review."
+    },
+    {
+      "id": "w9-fresh-051",
+      "kind": "borderline",
+      "text": "55+ housing; families with infants will be turned away.",
+      "expected_severity": "warning",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Suggestive audience/ability language or unverified exception requiring contextual review."
+    },
+    {
+      "id": "w9-fresh-052",
+      "kind": "borderline",
+      "text": "A welcoming retreat for empty nesters seeking neighbors like themselves.",
+      "expected_severity": "warning",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Suggestive audience/ability language or unverified exception requiring contextual review."
+    },
+    {
+      "id": "w9-fresh-053",
+      "kind": "borderline",
+      "text": "Residents are expected to share our spiritual values.",
+      "expected_severity": "warning",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Suggestive audience/ability language or unverified exception requiring contextual review."
+    }
+  ]
+}

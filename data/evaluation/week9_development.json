@@ -1,0 +1,357 @@
+{
+  "version": 1,
+  "provenance": "AI-authored synthetic development counterexamples; used for rule development, not held out.",
+  "label_policy": "Same maximum-severity screening labels as the original corpus.",
+  "examples": [
+    {
+      "id": "w9-dev-001",
+      "kind": "indirect",
+      "text": "Households with infants are rejected.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Resident and dependent-child relation combined with explicit exclusion."
+    },
+    {
+      "id": "w9-dev-002",
+      "kind": "indirect",
+      "text": "Renters caring for toddlers will be refused.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Resident and dependent-child relation combined with explicit exclusion."
+    },
+    {
+      "id": "w9-dev-003",
+      "kind": "indirect",
+      "text": "Parents with children cannot apply.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Resident and dependent-child relation combined with explicit exclusion."
+    },
+    {
+      "id": "w9-dev-004",
+      "kind": "indirect",
+      "text": "We refuse to lease to applicants with kids.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Resident and dependent-child relation combined with explicit exclusion."
+    },
+    {
+      "id": "w9-dev-005",
+      "kind": "indirect",
+      "text": "Families raising school-age children would be denied housing.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Resident and dependent-child relation combined with explicit exclusion."
+    },
+    {
+      "id": "w9-dev-006",
+      "kind": "indirect",
+      "text": "We turn away tenants having babies.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Resident and dependent-child relation combined with explicit exclusion."
+    },
+    {
+      "id": "w9-dev-007",
+      "kind": "indirect",
+      "text": "Applicants with minors are excluded, despite our welcoming lobby.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Resident and dependent-child relation combined with explicit exclusion."
+    },
+    {
+      "id": "w9-dev-008",
+      "kind": "indirect",
+      "text": "Residents are required to participate in prayer.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Religious activity or membership imposed on prospective/current residents."
+    },
+    {
+      "id": "w9-dev-009",
+      "kind": "indirect",
+      "text": "Applicants shall attend a mosque.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Religious activity or membership imposed on prospective/current residents."
+    },
+    {
+      "id": "w9-dev-010",
+      "kind": "indirect",
+      "text": "Renters have to become members of our synagogue.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Religious activity or membership imposed on prospective/current residents."
+    },
+    {
+      "id": "w9-dev-011",
+      "kind": "indirect",
+      "text": "We require tenants to attend worship services.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Religious activity or membership imposed on prospective/current residents."
+    },
+    {
+      "id": "w9-dev-012",
+      "kind": "indirect",
+      "text": "Each tenant must be a member of the church.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Religious activity or membership imposed on prospective/current residents."
+    },
+    {
+      "id": "w9-dev-013",
+      "kind": "indirect",
+      "text": "Occupants must participate in religious services.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Religious activity or membership imposed on prospective/current residents."
+    },
+    {
+      "id": "w9-dev-014",
+      "kind": "indirect",
+      "text": "Applicants must attend religious services; the garden is open to all.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Religious activity or membership imposed on prospective/current residents."
+    },
+    {
+      "id": "w9-dev-015",
+      "kind": "borderline",
+      "text": "Households with children are discouraged from applying.",
+      "expected_severity": "warning",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Discouraging household language merits review."
+    },
+    {
+      "id": "w9-dev-016",
+      "kind": "borderline",
+      "text": "Families with toddlers are not a good fit.",
+      "expected_severity": "warning",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Discouraging household language merits review."
+    },
+    {
+      "id": "w9-dev-017",
+      "kind": "borderline",
+      "text": "Residents are expected to attend church.",
+      "expected_severity": "warning",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Ambiguous religious expectation or encouragement in a housing advertisement."
+    },
+    {
+      "id": "w9-dev-018",
+      "kind": "borderline",
+      "text": "Tenants encouraged to participate in prayer.",
+      "expected_severity": "warning",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Ambiguous religious expectation or encouragement in a housing advertisement."
+    },
+    {
+      "id": "w9-dev-019",
+      "kind": "compliant",
+      "text": "Spacious nursery for families raising little ones.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign feature, optional activity, negated condition or unrelated action."
+    },
+    {
+      "id": "w9-dev-020",
+      "kind": "compliant",
+      "text": "Applicants with children are welcome.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign feature, optional activity, negated condition or unrelated action."
+    },
+    {
+      "id": "w9-dev-021",
+      "kind": "compliant",
+      "text": "Households with infants will not be rejected.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign feature, optional activity, negated condition or unrelated action."
+    },
+    {
+      "id": "w9-dev-022",
+      "kind": "compliant",
+      "text": "We never reject families with kids.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign feature, optional activity, negated condition or unrelated action."
+    },
+    {
+      "id": "w9-dev-023",
+      "kind": "compliant",
+      "text": "We do not refuse to rent to parents with toddlers.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign feature, optional activity, negated condition or unrelated action."
+    },
+    {
+      "id": "w9-dev-024",
+      "kind": "compliant",
+      "text": "Families with children may apply.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign feature, optional activity, negated condition or unrelated action."
+    },
+    {
+      "id": "w9-dev-025",
+      "kind": "compliant",
+      "text": "Parents with children are invited to tour.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign feature, optional activity, negated condition or unrelated action."
+    },
+    {
+      "id": "w9-dev-026",
+      "kind": "compliant",
+      "text": "Tenants may attend our church each Sunday.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign feature, optional activity, negated condition or unrelated action."
+    },
+    {
+      "id": "w9-dev-027",
+      "kind": "compliant",
+      "text": "Tenants must not attend church during renovation.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign feature, optional activity, negated condition or unrelated action."
+    },
+    {
+      "id": "w9-dev-028",
+      "kind": "compliant",
+      "text": "Tenants are not required to attend religious services.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign feature, optional activity, negated condition or unrelated action."
+    },
+    {
+      "id": "w9-dev-029",
+      "kind": "compliant",
+      "text": "We do not require tenants to attend church.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign feature, optional activity, negated condition or unrelated action."
+    },
+    {
+      "id": "w9-dev-030",
+      "kind": "compliant",
+      "text": "Residents must attend the property inspection.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign feature, optional activity, negated condition or unrelated action."
+    },
+    {
+      "id": "w9-dev-031",
+      "kind": "compliant",
+      "text": "Applicants must attend church safety orientation.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign feature, optional activity, negated condition or unrelated action."
+    },
+    {
+      "id": "w9-dev-032",
+      "kind": "compliant",
+      "text": "Converted church with original windows.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign feature, optional activity, negated condition or unrelated action."
+    },
+    {
+      "id": "w9-dev-033",
+      "kind": "compliant",
+      "text": "Walk to the local mosque or synagogue.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign feature, optional activity, negated condition or unrelated action."
+    },
+    {
+      "id": "w9-dev-034",
+      "kind": "compliant",
+      "text": "Families with babies enjoy the yard. Late applications are rejected.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign feature, optional activity, negated condition or unrelated action."
+    },
+    {
+      "id": "w9-dev-035",
+      "kind": "compliant",
+      "text": "Applicants raising little ones can use the playroom; pets are turned away.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign feature, optional activity, negated condition or unrelated action."
+    },
+    {
+      "id": "w9-dev-036",
+      "kind": "compliant",
+      "text": "Residents must maintain the garden beside our church.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign feature, optional activity, negated condition or unrelated action."
+    },
+    {
+      "id": "w9-dev-037",
+      "kind": "compliant",
+      "text": "Tenants may become members of our temple if they wish.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign feature, optional activity, negated condition or unrelated action."
+    },
+    {
+      "id": "w9-dev-038",
+      "kind": "compliant",
+      "text": "We never require residents to participate in prayer.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign feature, optional activity, negated condition or unrelated action."
+    },
+    {
+      "id": "w9-dev-039",
+      "kind": "compliant",
+      "text": "Step-free entrance near the temple.",
+      "expected_severity": "info",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Positive accessibility information."
+    }
+  ]
+}

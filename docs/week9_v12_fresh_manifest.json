@@ -1,0 +1,6 @@
+{
+  "dataset_sha256": "908e12542a8c4d64d4b4ca45f010871253b468565fcae14676fd6c834b15feb6",
+  "freeze_sha256": "dad86ac91c0a31e14898464be4ffaf39ef01ecf6410fba6fcb2fe2e4e77280ef",
+  "stage": "Sealed before either model scored the fresh corpus.",
+  "exact_text_overlap_with_prior_sets": 0
+}

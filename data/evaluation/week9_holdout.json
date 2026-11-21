@@ -1,0 +1,399 @@
+{
+  "version": 1,
+  "provenance": "AI-authored synthetic temporal holdout, created after v1.1 code freeze. Same author as rules; not independent or human-verified. Labels fixed before scoring; no tuning against this set.",
+  "label_policy": "Maximum-severity screening labels; warnings are review positives, not legal determinations.",
+  "examples": [
+    {
+      "id": "w9-held-001",
+      "kind": "known_violation",
+      "text": "Only Asian applicants for this rental.",
+      "expected_severity": "error",
+      "categories": [
+        "race"
+      ],
+      "rationale": "Explicit protected-class preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-held-002",
+      "kind": "known_violation",
+      "text": "Dark-skinned applicants not allowed.",
+      "expected_severity": "error",
+      "categories": [
+        "color"
+      ],
+      "rationale": "Explicit protected-class preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-held-003",
+      "kind": "known_violation",
+      "text": "Atheists need not apply for this apartment.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Explicit protected-class preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-held-004",
+      "kind": "known_violation",
+      "text": "Women preferred for the available unit.",
+      "expected_severity": "error",
+      "categories": [
+        "sex"
+      ],
+      "rationale": "Explicit protected-class preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-held-005",
+      "kind": "known_violation",
+      "text": "We will not rent to Mexicans.",
+      "expected_severity": "error",
+      "categories": [
+        "national_origin"
+      ],
+      "rationale": "Explicit protected-class preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-held-006",
+      "kind": "known_violation",
+      "text": "No babies in this rental.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Explicit protected-class preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-held-007",
+      "kind": "known_violation",
+      "text": "No assistance animals in this building.",
+      "expected_severity": "error",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Explicit protected-class preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-held-008",
+      "kind": "indirect",
+      "text": "Renters raising infants are denied a lease.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Rejects households based on dependent children."
+    },
+    {
+      "id": "w9-held-009",
+      "kind": "indirect",
+      "text": "Applicants caring for kids would be turned away at this building.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Dependent-child exclusion."
+    },
+    {
+      "id": "w9-held-010",
+      "kind": "indirect",
+      "text": "We exclude households with toddlers from renting here.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Excludes households with young children."
+    },
+    {
+      "id": "w9-held-011",
+      "kind": "indirect",
+      "text": "If you have a baby, your application will be declined.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Conditional rejection of households with a baby."
+    },
+    {
+      "id": "w9-held-012",
+      "kind": "indirect",
+      "text": "This rental is reserved for people without dependents under eighteen.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Indirect exclusion of households with minors."
+    },
+    {
+      "id": "w9-held-013",
+      "kind": "indirect",
+      "text": "Occupants shall become members of a temple.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Religious membership imposed as a housing condition."
+    },
+    {
+      "id": "w9-held-014",
+      "kind": "indirect",
+      "text": "Residents have to attend prayer meetings.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Required religious participation."
+    },
+    {
+      "id": "w9-held-015",
+      "kind": "indirect",
+      "text": "We require renters to participate in worship.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Religious participation condition."
+    },
+    {
+      "id": "w9-held-016",
+      "kind": "indirect",
+      "text": "A letter from your pastor is necessary to qualify for this apartment.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Religious affiliation evidence required for housing."
+    },
+    {
+      "id": "w9-held-017",
+      "kind": "indirect",
+      "text": "The lease is available only to practicing members of our faith.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Religious qualification for tenancy."
+    },
+    {
+      "id": "w9-held-018",
+      "kind": "indirect",
+      "text": "Applicants who use mobility aids will be rejected.",
+      "expected_severity": "error",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Disability-related applicant exclusion."
+    },
+    {
+      "id": "w9-held-019",
+      "kind": "indirect",
+      "text": "Applicants born outside the country will be turned away.",
+      "expected_severity": "error",
+      "categories": [
+        "national_origin"
+      ],
+      "rationale": "Birthplace exclusion."
+    },
+    {
+      "id": "w9-held-020",
+      "kind": "compliant",
+      "text": "Brown brick exterior with a white fence and black hardware.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Property description, voluntary activity, negation, rescinded policy or unrelated restriction."
+    },
+    {
+      "id": "w9-held-021",
+      "kind": "compliant",
+      "text": "Temple-inspired landscaping and a prayer room usable as an office.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Property description, voluntary activity, negation, rescinded policy or unrelated restriction."
+    },
+    {
+      "id": "w9-held-022",
+      "kind": "compliant",
+      "text": "Families with infants can request ground-floor accommodation.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Property description, voluntary activity, negation, rescinded policy or unrelated restriction."
+    },
+    {
+      "id": "w9-held-023",
+      "kind": "compliant",
+      "text": "Renters with children will not be denied housing.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Property description, voluntary activity, negation, rescinded policy or unrelated restriction."
+    },
+    {
+      "id": "w9-held-024",
+      "kind": "compliant",
+      "text": "We never turn away households with babies.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Property description, voluntary activity, negation, rescinded policy or unrelated restriction."
+    },
+    {
+      "id": "w9-held-025",
+      "kind": "compliant",
+      "text": "Applicants are not required to become members of a church.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Property description, voluntary activity, negation, rescinded policy or unrelated restriction."
+    },
+    {
+      "id": "w9-held-026",
+      "kind": "compliant",
+      "text": "Residents may attend worship services at the nearby synagogue.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Property description, voluntary activity, negation, rescinded policy or unrelated restriction."
+    },
+    {
+      "id": "w9-held-027",
+      "kind": "compliant",
+      "text": "Tenants must attend the annual fire-safety briefing in the converted chapel.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Property description, voluntary activity, negation, rescinded policy or unrelated restriction."
+    },
+    {
+      "id": "w9-held-028",
+      "kind": "compliant",
+      "text": "Residents must attend church renovation orientation before entering the construction zone.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Property description, voluntary activity, negation, rescinded policy or unrelated restriction."
+    },
+    {
+      "id": "w9-held-029",
+      "kind": "compliant",
+      "text": "Applicants with kids are welcome; incomplete applications will be rejected.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Property description, voluntary activity, negation, rescinded policy or unrelated restriction."
+    },
+    {
+      "id": "w9-held-030",
+      "kind": "compliant",
+      "text": "The former rule that tenants must attend church has been abolished; no religious participation is required.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Property description, voluntary activity, negation, rescinded policy or unrelated restriction."
+    },
+    {
+      "id": "w9-held-031",
+      "kind": "compliant",
+      "text": "A household with toddlers is welcome. Parking permits are restricted.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Property description, voluntary activity, negation, rescinded policy or unrelated restriction."
+    },
+    {
+      "id": "w9-held-032",
+      "kind": "compliant",
+      "text": "Tenants are free to participate in prayer meetings or decline them.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Property description, voluntary activity, negation, rescinded policy or unrelated restriction."
+    },
+    {
+      "id": "w9-held-033",
+      "kind": "compliant",
+      "text": "The nursery has room for little ones and their toys.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Property description, voluntary activity, negation, rescinded policy or unrelated restriction."
+    },
+    {
+      "id": "w9-held-034",
+      "kind": "compliant",
+      "text": "Wheelchair accessible lobby beside the former church.",
+      "expected_severity": "info",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Positive accessibility description merits nonblocking accuracy guidance."
+    },
+    {
+      "id": "w9-held-035",
+      "kind": "compliant",
+      "text": "A step-free terrace overlooks the gardens.",
+      "expected_severity": "info",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Positive accessibility description merits nonblocking accuracy guidance."
+    },
+    {
+      "id": "w9-held-036",
+      "kind": "borderline",
+      "text": "Renters with babies are discouraged from applying.",
+      "expected_severity": "warning",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Discouragement based on familial status merits review."
+    },
+    {
+      "id": "w9-held-037",
+      "kind": "borderline",
+      "text": "Applicants are expected to participate in religious services.",
+      "expected_severity": "warning",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Potential religious pressure; review context."
+    },
+    {
+      "id": "w9-held-038",
+      "kind": "borderline",
+      "text": "Residents encouraged to attend the synagogue.",
+      "expected_severity": "warning",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Religious encouragement in housing advertising; review whether optional."
+    },
+    {
+      "id": "w9-held-039",
+      "kind": "borderline",
+      "text": "62+ community with adults only occupancy.",
+      "expected_severity": "warning",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Claimed older-person housing exception requires verification."
+    },
+    {
+      "id": "w9-held-040",
+      "kind": "borderline",
+      "text": "Male roommate wanted for a room with shared living space.",
+      "expected_severity": "warning",
+      "categories": [
+        "sex"
+      ],
+      "rationale": "Shared-living context needs exception review."
+    },
+    {
+      "id": "w9-held-041",
+      "kind": "borderline",
+      "text": "Best suited to people who have finished raising their children.",
+      "expected_severity": "warning",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Indirect audience discouragement merits review."
+    },
+    {
+      "id": "w9-held-042",
+      "kind": "borderline",
+      "text": "Residents should be capable of independent living.",
+      "expected_severity": "warning",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Ambiguous ability qualification; review rather than certify illegality."
+    }
+  ]
+}

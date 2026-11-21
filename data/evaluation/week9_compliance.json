@@ -1,0 +1,591 @@
+{
+  "version": 1,
+  "provenance": "AI-authored synthetic regression/evaluation corpus; not human legal review or an independent held-out benchmark.",
+  "label_policy": "error=explicit exclusion; warning=review; info=feature guidance; none=no screening finding. Known violations exclude challenge paraphrases.",
+  "examples": [
+    {
+      "id": "w9-001",
+      "kind": "known_violation",
+      "text": "White tenants only.",
+      "expected_severity": "error",
+      "categories": [
+        "race"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-002",
+      "kind": "known_violation",
+      "text": "No Black applicants.",
+      "expected_severity": "error",
+      "categories": [
+        "race"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-003",
+      "kind": "known_violation",
+      "text": "We prefer Asian tenants.",
+      "expected_severity": "error",
+      "categories": [
+        "race"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-004",
+      "kind": "known_violation",
+      "text": "Caucasians preferred.",
+      "expected_severity": "error",
+      "categories": [
+        "race"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-005",
+      "kind": "known_violation",
+      "text": "Light-skinned tenants only.",
+      "expected_severity": "error",
+      "categories": [
+        "color"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-006",
+      "kind": "known_violation",
+      "text": "No dark-skinned people.",
+      "expected_severity": "error",
+      "categories": [
+        "color"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-007",
+      "kind": "known_violation",
+      "text": "Fair-skinned applicants preferred.",
+      "expected_severity": "error",
+      "categories": [
+        "color"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-008",
+      "kind": "known_violation",
+      "text": "Christians only.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-009",
+      "kind": "known_violation",
+      "text": "No Muslims.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-010",
+      "kind": "known_violation",
+      "text": "Jews need not apply.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-011",
+      "kind": "known_violation",
+      "text": "We do not rent to Catholics.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-012",
+      "kind": "known_violation",
+      "text": "Women only.",
+      "expected_severity": "error",
+      "categories": [
+        "sex"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-013",
+      "kind": "known_violation",
+      "text": "No men.",
+      "expected_severity": "error",
+      "categories": [
+        "sex"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-014",
+      "kind": "known_violation",
+      "text": "Male applicants only.",
+      "expected_severity": "error",
+      "categories": [
+        "sex"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-015",
+      "kind": "known_violation",
+      "text": "We will not rent to transgender people.",
+      "expected_severity": "error",
+      "categories": [
+        "sex"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-016",
+      "kind": "known_violation",
+      "text": "Americans only.",
+      "expected_severity": "error",
+      "categories": [
+        "national_origin"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-017",
+      "kind": "known_violation",
+      "text": "No immigrants.",
+      "expected_severity": "error",
+      "categories": [
+        "national_origin"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-018",
+      "kind": "known_violation",
+      "text": "Mexicans need not apply.",
+      "expected_severity": "error",
+      "categories": [
+        "national_origin"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-019",
+      "kind": "known_violation",
+      "text": "We don\u2019t rent to foreigners.",
+      "expected_severity": "error",
+      "categories": [
+        "national_origin"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-020",
+      "kind": "known_violation",
+      "text": "No children.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-021",
+      "kind": "known_violation",
+      "text": "Adults only.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-022",
+      "kind": "known_violation",
+      "text": "No families with kids.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-023",
+      "kind": "known_violation",
+      "text": "No pregnant women.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-024",
+      "kind": "known_violation",
+      "text": "Must be childless.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-025",
+      "kind": "known_violation",
+      "text": "Families welcome, but no babies.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-026",
+      "kind": "known_violation",
+      "text": "No wheelchair users.",
+      "expected_severity": "error",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-027",
+      "kind": "known_violation",
+      "text": "Must be able-bodied.",
+      "expected_severity": "error",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-028",
+      "kind": "known_violation",
+      "text": "No service animals.",
+      "expected_severity": "error",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-029",
+      "kind": "known_violation",
+      "text": "Disabled tenants not welcome.",
+      "expected_severity": "error",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-030",
+      "kind": "known_violation",
+      "text": "Wheelchair accessible. No disabled people.",
+      "expected_severity": "error",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Explicit resident preference or exclusion; no exception stipulated."
+    },
+    {
+      "id": "w9-031",
+      "kind": "compliant",
+      "text": "White cabinets and black granite countertops.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, inclusive statement, or locally negated restriction."
+    },
+    {
+      "id": "w9-032",
+      "kind": "compliant",
+      "text": "French doors and Mexican tile in the kitchen.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, inclusive statement, or locally negated restriction."
+    },
+    {
+      "id": "w9-033",
+      "kind": "compliant",
+      "text": "A family room, master bedroom and walk-in closet.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, inclusive statement, or locally negated restriction."
+    },
+    {
+      "id": "w9-034",
+      "kind": "compliant",
+      "text": "Near a church and a synagogue.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, inclusive statement, or locally negated restriction."
+    },
+    {
+      "id": "w9-035",
+      "kind": "compliant",
+      "text": "Diverse area with ethnic restaurants nearby.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, inclusive statement, or locally negated restriction."
+    },
+    {
+      "id": "w9-036",
+      "kind": "compliant",
+      "text": "All families and children welcome.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, inclusive statement, or locally negated restriction."
+    },
+    {
+      "id": "w9-037",
+      "kind": "compliant",
+      "text": "No pets. Reasonable accommodation requests considered.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, inclusive statement, or locally negated restriction."
+    },
+    {
+      "id": "w9-038",
+      "kind": "compliant",
+      "text": "Second-floor walk-up; no elevator.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, inclusive statement, or locally negated restriction."
+    },
+    {
+      "id": "w9-039",
+      "kind": "compliant",
+      "text": "Not adults only. Everyone is welcome.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, inclusive statement, or locally negated restriction."
+    },
+    {
+      "id": "w9-040",
+      "kind": "compliant",
+      "text": "We do not require Christians only.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, inclusive statement, or locally negated restriction."
+    },
+    {
+      "id": "w9-041",
+      "kind": "compliant",
+      "text": "No children restrictions apply.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, inclusive statement, or locally negated restriction."
+    },
+    {
+      "id": "w9-042",
+      "kind": "compliant",
+      "text": "No wheelchair ramp is installed.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, inclusive statement, or locally negated restriction."
+    },
+    {
+      "id": "w9-043",
+      "kind": "compliant",
+      "text": "Christian church across the road.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, inclusive statement, or locally negated restriction."
+    },
+    {
+      "id": "w9-044",
+      "kind": "compliant",
+      "text": "English and Spanish spoken by leasing staff.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, inclusive statement, or locally negated restriction."
+    },
+    {
+      "id": "w9-045",
+      "kind": "compliant",
+      "text": "Single-family home with a nursery.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, inclusive statement, or locally negated restriction."
+    },
+    {
+      "id": "w9-046",
+      "kind": "compliant",
+      "text": "No smoking inside.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, inclusive statement, or locally negated restriction."
+    },
+    {
+      "id": "w9-047",
+      "kind": "compliant",
+      "text": "No children allowed is not our policy.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, inclusive statement, or locally negated restriction."
+    },
+    {
+      "id": "w9-048",
+      "kind": "compliant",
+      "text": "The building is not wheelchair accessible.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Objective feature, inclusive statement, or locally negated restriction."
+    },
+    {
+      "id": "w9-049",
+      "kind": "compliant",
+      "text": "Wheelchair accessible entrance.",
+      "expected_severity": "info",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Positive feature guidance; non-actionable for binary scoring."
+    },
+    {
+      "id": "w9-050",
+      "kind": "compliant",
+      "text": "Step-free entry and wide doors.",
+      "expected_severity": "info",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Positive feature guidance; non-actionable for binary scoring."
+    },
+    {
+      "id": "w9-051",
+      "kind": "compliant",
+      "text": "Accessible entrance next to the garage.",
+      "expected_severity": "info",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Positive feature guidance; non-actionable for binary scoring."
+    },
+    {
+      "id": "w9-052",
+      "kind": "borderline",
+      "text": "Ideal for singles.",
+      "expected_severity": "warning",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Needs contextual review; not a labeled legal violation."
+    },
+    {
+      "id": "w9-053",
+      "kind": "borderline",
+      "text": "Perfect for couples.",
+      "expected_severity": "warning",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Needs contextual review; not a labeled legal violation."
+    },
+    {
+      "id": "w9-054",
+      "kind": "borderline",
+      "text": "Adult community.",
+      "expected_severity": "warning",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Needs contextual review; not a labeled legal violation."
+    },
+    {
+      "id": "w9-055",
+      "kind": "borderline",
+      "text": "55+ community. Adults only.",
+      "expected_severity": "warning",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Needs contextual review; not a labeled legal violation."
+    },
+    {
+      "id": "w9-056",
+      "kind": "borderline",
+      "text": "Senior housing with no children.",
+      "expected_severity": "warning",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Needs contextual review; not a labeled legal violation."
+    },
+    {
+      "id": "w9-057",
+      "kind": "borderline",
+      "text": "White neighborhood.",
+      "expected_severity": "warning",
+      "categories": [
+        "race"
+      ],
+      "rationale": "Needs contextual review; not a labeled legal violation."
+    },
+    {
+      "id": "w9-058",
+      "kind": "borderline",
+      "text": "Christian community.",
+      "expected_severity": "warning",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Needs contextual review; not a labeled legal violation."
+    },
+    {
+      "id": "w9-059",
+      "kind": "borderline",
+      "text": "Female roommate wanted; shared kitchen.",
+      "expected_severity": "warning",
+      "categories": [
+        "sex"
+      ],
+      "rationale": "Needs contextual review; not a labeled legal violation."
+    },
+    {
+      "id": "w9-060",
+      "kind": "borderline",
+      "text": "English speakers only.",
+      "expected_severity": "warning",
+      "categories": [
+        "national_origin"
+      ],
+      "rationale": "Needs contextual review; not a labeled legal violation."
+    },
+    {
+      "id": "w9-061",
+      "kind": "challenge",
+      "text": "Applicants raising little ones will be turned away.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Indirect exclusion of families with children."
+    },
+    {
+      "id": "w9-062",
+      "kind": "challenge",
+      "text": "Tenants must attend our church each Sunday.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Religious participation condition."
+    }
+  ]
+}

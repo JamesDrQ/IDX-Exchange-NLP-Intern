@@ -1,0 +1,12 @@
+{
+  "version": "1.1",
+  "stage": "Frozen after development tests and before held-out corpus creation/scoring.",
+  "provenance": "Same-agent synthetic holdout; temporal separation, not independent authorship.",
+  "code_sha256": {
+    "scripts/compliance_checker.py": "661c354cb677a538a316d24e106c6072a18344e903de735a43ac6be6ab9381a9",
+    "scripts/compliance_patterns.py": "ddd3a0c6d7d703f5c59c9c62e84875d9726029f94506d3599ebb6391f54580da",
+    "scripts/compliance_context_patterns.py": "7ad52850ec3796beab0df2c8bf38c787fd2a7c8a1c8a398529621290c04203b2",
+    "scripts/evaluate_week9.py": "69effbce573b928e19b720146301f32d2978788f12ba5168f2adcb9523002b18",
+    "scripts/demo_week9_submission.py": "33882bad1a79fc4808480d1a27d2ac812f810f925c372306017a5af35e9e03cd"
+  }
+}

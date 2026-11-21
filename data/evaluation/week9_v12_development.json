@@ -1,0 +1,339 @@
+{
+  "version": 1,
+  "provenance": "AI-authored v1.2 development counterexamples, not held out.",
+  "label_policy": "Existing maximum-severity screening policy.",
+  "examples": [
+    {
+      "id": "w9-v12-dev-001",
+      "kind": "indirect",
+      "text": "If your household includes a toddler, your application is denied.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Explicit child-related eligibility or conditional refusal."
+    },
+    {
+      "id": "w9-v12-dev-002",
+      "kind": "indirect",
+      "text": "If you are raising kids you may not apply.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Explicit child-related eligibility or conditional refusal."
+    },
+    {
+      "id": "w9-v12-dev-003",
+      "kind": "indirect",
+      "text": "Housing is restricted to persons without minors.",
+      "expected_severity": "error",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Explicit child-related eligibility or conditional refusal."
+    },
+    {
+      "id": "w9-v12-dev-004",
+      "kind": "indirect",
+      "text": "A reference from a rabbi is required for tenancy.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Religious evidence or affiliation made a housing qualification."
+    },
+    {
+      "id": "w9-v12-dev-005",
+      "kind": "indirect",
+      "text": "A recommendation from your imam will be necessary to apply for a unit.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Religious evidence or affiliation made a housing qualification."
+    },
+    {
+      "id": "w9-v12-dev-006",
+      "kind": "indirect",
+      "text": "Housing is restricted to members of the congregation.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Religious evidence or affiliation made a housing qualification."
+    },
+    {
+      "id": "w9-v12-dev-007",
+      "kind": "indirect",
+      "text": "This apartment is reserved for members of our religion.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "Religious evidence or affiliation made a housing qualification."
+    },
+    {
+      "id": "w9-v12-dev-008",
+      "kind": "indirect",
+      "text": "Residents who need walking aids are excluded.",
+      "expected_severity": "error",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Explicit ability-related restriction on residents."
+    },
+    {
+      "id": "w9-v12-dev-009",
+      "kind": "indirect",
+      "text": "We reject people who rely on mobility aids.",
+      "expected_severity": "error",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Explicit ability-related restriction on residents."
+    },
+    {
+      "id": "w9-v12-dev-010",
+      "kind": "indirect",
+      "text": "Tenants must be able to live independently.",
+      "expected_severity": "error",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Explicit ability-related restriction on residents."
+    },
+    {
+      "id": "w9-v12-dev-011",
+      "kind": "indirect",
+      "text": "Occupants are required to be self-sufficient.",
+      "expected_severity": "error",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Explicit ability-related restriction on residents."
+    },
+    {
+      "id": "w9-v12-dev-012",
+      "kind": "indirect",
+      "text": "Renters born overseas would be refused.",
+      "expected_severity": "error",
+      "categories": [
+        "national_origin"
+      ],
+      "rationale": "Applicant exclusion based on birthplace."
+    },
+    {
+      "id": "w9-v12-dev-013",
+      "kind": "indirect",
+      "text": "We exclude people who were born abroad.",
+      "expected_severity": "error",
+      "categories": [
+        "national_origin"
+      ],
+      "rationale": "Applicant exclusion based on birthplace."
+    },
+    {
+      "id": "w9-v12-dev-014",
+      "kind": "borderline",
+      "text": "Ideal for parents who no longer have children at home.",
+      "expected_severity": "warning",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Suggestive life-stage audience; review context."
+    },
+    {
+      "id": "w9-v12-dev-015",
+      "kind": "borderline",
+      "text": "Designed for people who finished raising their children.",
+      "expected_severity": "warning",
+      "categories": [
+        "familial_status"
+      ],
+      "rationale": "Suggestive life-stage audience; review context."
+    },
+    {
+      "id": "w9-v12-dev-016",
+      "kind": "borderline",
+      "text": "Applicants are expected to be self-sufficient.",
+      "expected_severity": "warning",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Ambiguous ability expectation rather than explicit exclusion."
+    },
+    {
+      "id": "w9-v12-dev-017",
+      "kind": "borderline",
+      "text": "Tenants should be able to live independently.",
+      "expected_severity": "warning",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Ambiguous ability expectation rather than explicit exclusion."
+    },
+    {
+      "id": "w9-v12-dev-018",
+      "kind": "compliant",
+      "text": "If you have a baby, your application will not be declined.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign facts, optional conditions, negation or explicit local rescission."
+    },
+    {
+      "id": "w9-v12-dev-019",
+      "kind": "compliant",
+      "text": "If you have a baby, your application can include a request for a nursery.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign facts, optional conditions, negation or explicit local rescission."
+    },
+    {
+      "id": "w9-v12-dev-020",
+      "kind": "compliant",
+      "text": "Housing is available to people with children.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign facts, optional conditions, negation or explicit local rescission."
+    },
+    {
+      "id": "w9-v12-dev-021",
+      "kind": "compliant",
+      "text": "A letter from your pastor is optional for this apartment.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign facts, optional conditions, negation or explicit local rescission."
+    },
+    {
+      "id": "w9-v12-dev-022",
+      "kind": "compliant",
+      "text": "A reference from your previous landlord is required for tenancy.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign facts, optional conditions, negation or explicit local rescission."
+    },
+    {
+      "id": "w9-v12-dev-023",
+      "kind": "compliant",
+      "text": "A letter from a priest is necessary for the wedding.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign facts, optional conditions, negation or explicit local rescission."
+    },
+    {
+      "id": "w9-v12-dev-024",
+      "kind": "compliant",
+      "text": "Residents who use wheelchairs are welcome.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign facts, optional conditions, negation or explicit local rescission."
+    },
+    {
+      "id": "w9-v12-dev-025",
+      "kind": "compliant",
+      "text": "Applicants born abroad are not rejected.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign facts, optional conditions, negation or explicit local rescission."
+    },
+    {
+      "id": "w9-v12-dev-026",
+      "kind": "compliant",
+      "text": "Tenants may live independently or use support services.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign facts, optional conditions, negation or explicit local rescission."
+    },
+    {
+      "id": "w9-v12-dev-027",
+      "kind": "compliant",
+      "text": "A self-sufficient home with solar panels and a rainwater tank.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign facts, optional conditions, negation or explicit local rescission."
+    },
+    {
+      "id": "w9-v12-dev-028",
+      "kind": "compliant",
+      "text": "A nursery for parents raising children.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign facts, optional conditions, negation or explicit local rescission."
+    },
+    {
+      "id": "w9-v12-dev-029",
+      "kind": "compliant",
+      "text": "The old rule that tenants must attend church was rescinded.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign facts, optional conditions, negation or explicit local rescission."
+    },
+    {
+      "id": "w9-v12-dev-030",
+      "kind": "compliant",
+      "text": "The policy that households with infants are rejected has been removed.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign facts, optional conditions, negation or explicit local rescission."
+    },
+    {
+      "id": "w9-v12-dev-031",
+      "kind": "compliant",
+      "text": "The requirement that residents must be self-sufficient is revoked.",
+      "expected_severity": "none",
+      "categories": [],
+      "rationale": "Benign facts, optional conditions, negation or explicit local rescission."
+    },
+    {
+      "id": "w9-v12-dev-032",
+      "kind": "indirect",
+      "text": "The former rule that tenants must attend church has not been abolished.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "History or unrelated rescission cannot suppress an active religious condition."
+    },
+    {
+      "id": "w9-v12-dev-033",
+      "kind": "indirect",
+      "text": "The old rule that tenants must attend church remains in force.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "History or unrelated rescission cannot suppress an active religious condition."
+    },
+    {
+      "id": "w9-v12-dev-034",
+      "kind": "indirect",
+      "text": "The policy that tenants must attend church was rescinded; applicants must attend a mosque.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "History or unrelated rescission cannot suppress an active religious condition."
+    },
+    {
+      "id": "w9-v12-dev-035",
+      "kind": "indirect",
+      "text": "Tenants must attend church; the parking policy has been revoked.",
+      "expected_severity": "error",
+      "categories": [
+        "religion"
+      ],
+      "rationale": "History or unrelated rescission cannot suppress an active religious condition."
+    },
+    {
+      "id": "w9-v12-dev-036",
+      "kind": "compliant",
+      "text": "Step-free paths provide access to the prayer room.",
+      "expected_severity": "info",
+      "categories": [
+        "disability"
+      ],
+      "rationale": "Nonblocking accessibility feature."
+    }
+  ]
+}
