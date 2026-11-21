@@ -1,0 +1,555 @@
+{
+  "dataset_sha256": "908e12542a8c4d64d4b4ca45f010871253b468565fcae14676fd6c834b15feb6",
+  "library_version": "1.1",
+  "provenance": "Fresh same-agent synthetic temporal holdout created after v1.2 freeze; fixed labels before scoring. Not independently authored or human-verified. No tuning after scoring.",
+  "overall": {
+    "TP": 12,
+    "FP": 2,
+    "TN": 18,
+    "FN": 21,
+    "count": 53,
+    "precision": 0.8571428571428571,
+    "recall": 0.36363636363636365,
+    "severity_accuracy": 0.5660377358490566
+  },
+  "code_sha256": {
+    "scripts/compliance_checker.py": "661c354cb677a538a316d24e106c6072a18344e903de735a43ac6be6ab9381a9",
+    "scripts/compliance_patterns.py": "ddd3a0c6d7d703f5c59c9c62e84875d9726029f94506d3599ebb6391f54580da",
+    "scripts/compliance_context_patterns.py": "7ad52850ec3796beab0df2c8bf38c787fd2a7c8a1c8a398529621290c04203b2",
+    "scripts/evaluate_week9.py": "69effbce573b928e19b720146301f32d2978788f12ba5168f2adcb9523002b18",
+    "scripts/demo_week9_submission.py": "33882bad1a79fc4808480d1a27d2ac812f810f925c372306017a5af35e9e03cd"
+  },
+  "false_positives": [
+    "w9-fresh-036",
+    "w9-fresh-038"
+  ],
+  "false_negatives": [
+    "w9-fresh-008",
+    "w9-fresh-009",
+    "w9-fresh-010",
+    "w9-fresh-012",
+    "w9-fresh-013",
+    "w9-fresh-014",
+    "w9-fresh-015",
+    "w9-fresh-017",
+    "w9-fresh-018",
+    "w9-fresh-019",
+    "w9-fresh-020",
+    "w9-fresh-021",
+    "w9-fresh-022",
+    "w9-fresh-023",
+    "w9-fresh-024",
+    "w9-fresh-025",
+    "w9-fresh-046",
+    "w9-fresh-048",
+    "w9-fresh-049",
+    "w9-fresh-052",
+    "w9-fresh-053"
+  ],
+  "severity_errors": [
+    {
+      "id": "w9-fresh-008",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-009",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-010",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-012",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-013",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-014",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-015",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-017",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-018",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-019",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-020",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-021",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-022",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-023",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-024",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-025",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-036",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-fresh-038",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-fresh-046",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-048",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-049",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-052",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-053",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "none"
+    }
+  ],
+  "error_label_recall": 0.36,
+  "by_kind": {
+    "borderline": {
+      "TP": 3,
+      "FP": 0,
+      "TN": 0,
+      "FN": 5,
+      "count": 8,
+      "precision": 1.0,
+      "recall": 0.375,
+      "severity_accuracy": 0.375
+    },
+    "compliant": {
+      "TP": 0,
+      "FP": 2,
+      "TN": 18,
+      "FN": 0,
+      "count": 20,
+      "precision": 0.0,
+      "recall": null,
+      "severity_accuracy": 0.9
+    },
+    "indirect": {
+      "TP": 2,
+      "FP": 0,
+      "TN": 0,
+      "FN": 16,
+      "count": 18,
+      "precision": 1.0,
+      "recall": 0.1111111111111111,
+      "severity_accuracy": 0.1111111111111111
+    },
+    "known_violation": {
+      "TP": 7,
+      "FP": 0,
+      "TN": 0,
+      "FN": 0,
+      "count": 7,
+      "precision": 1.0,
+      "recall": 1.0,
+      "severity_accuracy": 1.0
+    }
+  },
+  "known_violation_recall": 1.0,
+  "known_violation_error_recall": 1.0,
+  "targets_met": true,
+  "predictions": [
+    {
+      "id": "w9-fresh-001",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-fresh-002",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-fresh-003",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-fresh-004",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-fresh-005",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-fresh-006",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-fresh-007",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-fresh-008",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-009",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-010",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-011",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-fresh-012",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-013",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-014",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-015",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-016",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-fresh-017",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-018",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-019",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-020",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-021",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-022",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-023",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-024",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-025",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-026",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-027",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-028",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-029",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-030",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-031",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-032",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-033",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-034",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-035",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-036",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-fresh-037",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-038",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-fresh-039",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-040",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-041",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-042",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-043",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-044",
+      "kind": "compliant",
+      "expected": "info",
+      "predicted": "info"
+    },
+    {
+      "id": "w9-fresh-045",
+      "kind": "compliant",
+      "expected": "info",
+      "predicted": "info"
+    },
+    {
+      "id": "w9-fresh-046",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-047",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "warning"
+    },
+    {
+      "id": "w9-fresh-048",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-049",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-050",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "warning"
+    },
+    {
+      "id": "w9-fresh-051",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "warning"
+    },
+    {
+      "id": "w9-fresh-052",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-fresh-053",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "none"
+    }
+  ]
+}

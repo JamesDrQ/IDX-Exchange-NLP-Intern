@@ -1,0 +1,280 @@
+{
+  "dataset_sha256": "4df063fb952796301d68558615bf02c2f46812ca8283db801afc278e611dd702",
+  "library_version": "1.2",
+  "provenance": "AI-authored v1.2 development counterexamples, not held out.",
+  "overall": {
+    "TP": 21,
+    "FP": 0,
+    "TN": 15,
+    "FN": 0,
+    "count": 36,
+    "precision": 1.0,
+    "recall": 1.0,
+    "severity_accuracy": 1.0
+  },
+  "code_sha256": {
+    "scripts/compliance_checker.py": "b0f0699efaa25af24674dba19bc82b50ad8787374117b0d88fe68cde14a1193a",
+    "scripts/compliance_patterns.py": "9e4df8b52a0cf22a986c669b29076febea85de0e3fb2c6f5d73c50e7db2209fd",
+    "scripts/compliance_context_patterns.py": "528adb930087479efcadb96fc36a6c8a8c63d84393a99cdf552db5791282eaa4",
+    "scripts/compliance_context.py": "82cfd3c69d50556f3530f189d682f85967666bdfe33ed9912b72e94de8cad155",
+    "scripts/evaluate_week9.py": "0469853be4273643e00ac3dd3ca362bed3efbf78c97a6721af08b122fe2763e4",
+    "scripts/demo_week9_submission.py": "33882bad1a79fc4808480d1a27d2ac812f810f925c372306017a5af35e9e03cd"
+  },
+  "false_positives": [],
+  "false_negatives": [],
+  "severity_errors": [],
+  "error_label_recall": 1.0,
+  "by_kind": {
+    "borderline": {
+      "TP": 4,
+      "FP": 0,
+      "TN": 0,
+      "FN": 0,
+      "count": 4,
+      "precision": 1.0,
+      "recall": 1.0,
+      "severity_accuracy": 1.0
+    },
+    "compliant": {
+      "TP": 0,
+      "FP": 0,
+      "TN": 15,
+      "FN": 0,
+      "count": 15,
+      "precision": null,
+      "recall": null,
+      "severity_accuracy": 1.0
+    },
+    "indirect": {
+      "TP": 17,
+      "FP": 0,
+      "TN": 0,
+      "FN": 0,
+      "count": 17,
+      "precision": 1.0,
+      "recall": 1.0,
+      "severity_accuracy": 1.0
+    }
+  },
+  "known_violation_recall": null,
+  "known_violation_error_recall": null,
+  "targets_met": false,
+  "predictions": [
+    {
+      "id": "w9-v12-dev-001",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-v12-dev-002",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-v12-dev-003",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-v12-dev-004",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-v12-dev-005",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-v12-dev-006",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-v12-dev-007",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-v12-dev-008",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-v12-dev-009",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-v12-dev-010",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-v12-dev-011",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-v12-dev-012",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-v12-dev-013",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-v12-dev-014",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "warning"
+    },
+    {
+      "id": "w9-v12-dev-015",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "warning"
+    },
+    {
+      "id": "w9-v12-dev-016",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "warning"
+    },
+    {
+      "id": "w9-v12-dev-017",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "warning"
+    },
+    {
+      "id": "w9-v12-dev-018",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-v12-dev-019",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-v12-dev-020",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-v12-dev-021",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-v12-dev-022",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-v12-dev-023",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-v12-dev-024",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-v12-dev-025",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-v12-dev-026",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-v12-dev-027",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-v12-dev-028",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-v12-dev-029",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-v12-dev-030",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-v12-dev-031",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-v12-dev-032",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-v12-dev-033",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-v12-dev-034",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-v12-dev-035",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-v12-dev-036",
+      "kind": "compliant",
+      "expected": "info",
+      "predicted": "info"
+    }
+  ]
+}

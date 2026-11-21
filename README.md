@@ -139,3 +139,27 @@ python -m scripts.evaluate_week6_gold --input data/processed/week6_final_holdout
 
 See [`docs/week6_final_report.md`](docs/week6_final_report.md) for Week 6
 results, limitations, and annotation provenance.
+
+## Week 9: Fair Housing compliance screening
+
+`ComplianceChecker` screens listing descriptions using configurable regex and
+context rules across seven federal protected categories. Errors block submission,
+warnings require review, and informational accessibility guidance is nonblocking.
+It runs offline and does not modify the Week 1–8 pipeline.
+
+```bash
+python -m scripts.demo_week9_submission
+python -m scripts.evaluate_week9
+python -m pytest tests/test_week9_compliance.py -q
+```
+
+Version 1.2 uses compositional resident, eligibility, exclusion and local
+rescission rules. On the fresh 53-case synthetic set, recall improved from
+36.36% to 78.79% versus v1.1 on the same examples; indirect recall rose from
+11.11% to 72.22%. Precision is 100%, severity accuracy 86.79%, with zero false
+positives and seven false negatives. The older holdout is now diagnostic data.
+Fresh labels were fixed after code freeze but authored by the same agent;
+these are not independent legal-validation results.
+
+See [current generalization analysis and reproduction commands](docs/week9_generalization.md)
+and [the checker API and legal references](docs/week9_compliance.md).

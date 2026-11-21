@@ -1,0 +1,12 @@
+{
+  "version": "1.2",
+  "stage": "Code frozen after development and diagnostic evaluation, before fresh holdout creation.",
+  "code_sha256": {
+    "scripts/compliance_checker.py": "b0f0699efaa25af24674dba19bc82b50ad8787374117b0d88fe68cde14a1193a",
+    "scripts/compliance_patterns.py": "9e4df8b52a0cf22a986c669b29076febea85de0e3fb2c6f5d73c50e7db2209fd",
+    "scripts/compliance_context_patterns.py": "528adb930087479efcadb96fc36a6c8a8c63d84393a99cdf552db5791282eaa4",
+    "scripts/compliance_context.py": "82cfd3c69d50556f3530f189d682f85967666bdfe33ed9912b72e94de8cad155",
+    "scripts/evaluate_week9.py": "0469853be4273643e00ac3dd3ca362bed3efbf78c97a6721af08b122fe2763e4",
+    "scripts/demo_week9_submission.py": "33882bad1a79fc4808480d1a27d2ac812f810f925c372306017a5af35e9e03cd"
+  }
+}

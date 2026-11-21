@@ -1,0 +1,391 @@
+{
+  "dataset_sha256": "b56e41a2329300ccf39ba481802897cebac337df5de54287686855441575da09",
+  "library_version": "1.1",
+  "provenance": "AI-authored synthetic temporal holdout, created after v1.1 code freeze. Same author as rules; not independent or human-verified. Labels fixed before scoring; no tuning against this set.",
+  "overall": {
+    "TP": 18,
+    "FP": 1,
+    "TN": 15,
+    "FN": 8,
+    "count": 42,
+    "precision": 0.9473684210526315,
+    "recall": 0.6923076923076923,
+    "severity_accuracy": 0.7857142857142857
+  },
+  "code_sha256": {
+    "scripts/compliance_checker.py": "661c354cb677a538a316d24e106c6072a18344e903de735a43ac6be6ab9381a9",
+    "scripts/compliance_patterns.py": "ddd3a0c6d7d703f5c59c9c62e84875d9726029f94506d3599ebb6391f54580da",
+    "scripts/compliance_context_patterns.py": "7ad52850ec3796beab0df2c8bf38c787fd2a7c8a1c8a398529621290c04203b2",
+    "scripts/evaluate_week9.py": "69effbce573b928e19b720146301f32d2978788f12ba5168f2adcb9523002b18",
+    "scripts/demo_week9_submission.py": "33882bad1a79fc4808480d1a27d2ac812f810f925c372306017a5af35e9e03cd"
+  },
+  "false_positives": [
+    "w9-held-030"
+  ],
+  "false_negatives": [
+    "w9-held-011",
+    "w9-held-012",
+    "w9-held-016",
+    "w9-held-017",
+    "w9-held-018",
+    "w9-held-019",
+    "w9-held-041",
+    "w9-held-042"
+  ],
+  "severity_errors": [
+    {
+      "id": "w9-held-011",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-012",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-016",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-017",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-018",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-019",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-030",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-held-041",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-042",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "none"
+    }
+  ],
+  "error_label_recall": 0.6842105263157895,
+  "by_kind": {
+    "borderline": {
+      "TP": 5,
+      "FP": 0,
+      "TN": 0,
+      "FN": 2,
+      "count": 7,
+      "precision": 1.0,
+      "recall": 0.7142857142857143,
+      "severity_accuracy": 0.7142857142857143
+    },
+    "compliant": {
+      "TP": 0,
+      "FP": 1,
+      "TN": 15,
+      "FN": 0,
+      "count": 16,
+      "precision": 0.0,
+      "recall": null,
+      "severity_accuracy": 0.9375
+    },
+    "indirect": {
+      "TP": 6,
+      "FP": 0,
+      "TN": 0,
+      "FN": 6,
+      "count": 12,
+      "precision": 1.0,
+      "recall": 0.5,
+      "severity_accuracy": 0.5
+    },
+    "known_violation": {
+      "TP": 7,
+      "FP": 0,
+      "TN": 0,
+      "FN": 0,
+      "count": 7,
+      "precision": 1.0,
+      "recall": 1.0,
+      "severity_accuracy": 1.0
+    }
+  },
+  "known_violation_recall": 1.0,
+  "known_violation_error_recall": 1.0,
+  "targets_met": true,
+  "predictions": [
+    {
+      "id": "w9-held-001",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-held-002",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-held-003",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-held-004",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-held-005",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-held-006",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-held-007",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-held-008",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-held-009",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-held-010",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-held-011",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-012",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-013",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-held-014",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-held-015",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-held-016",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-017",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-018",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-019",
+      "kind": "indirect",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-020",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-021",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-022",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-023",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-024",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-025",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-026",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-027",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-028",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-029",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-030",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-held-031",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-032",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-033",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-034",
+      "kind": "compliant",
+      "expected": "info",
+      "predicted": "info"
+    },
+    {
+      "id": "w9-held-035",
+      "kind": "compliant",
+      "expected": "info",
+      "predicted": "info"
+    },
+    {
+      "id": "w9-held-036",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "warning"
+    },
+    {
+      "id": "w9-held-037",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "warning"
+    },
+    {
+      "id": "w9-held-038",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "warning"
+    },
+    {
+      "id": "w9-held-039",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "warning"
+    },
+    {
+      "id": "w9-held-040",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "warning"
+    },
+    {
+      "id": "w9-held-041",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-held-042",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "none"
+    }
+  ]
+}

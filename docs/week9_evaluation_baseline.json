@@ -1,0 +1,434 @@
+{
+  "dataset_sha256": "90c9741ca13b7c99c68d4147b1ce89c40135e5ba3e6c1cdfadab8129660b5d43",
+  "library_version": "1.0",
+  "provenance": "AI-authored synthetic regression/evaluation corpus; not human legal review or an independent held-out benchmark.",
+  "overall": {
+    "TP": 39,
+    "FP": 0,
+    "TN": 21,
+    "FN": 2,
+    "count": 62,
+    "precision": 1.0,
+    "recall": 0.9512195121951219,
+    "severity_accuracy": 0.967741935483871
+  },
+  "by_kind": {
+    "borderline": {
+      "TP": 9,
+      "FP": 0,
+      "TN": 0,
+      "FN": 0,
+      "count": 9,
+      "precision": 1.0,
+      "recall": 1.0,
+      "severity_accuracy": 1.0
+    },
+    "challenge": {
+      "TP": 0,
+      "FP": 0,
+      "TN": 0,
+      "FN": 2,
+      "count": 2,
+      "precision": null,
+      "recall": 0.0,
+      "severity_accuracy": 0.0
+    },
+    "compliant": {
+      "TP": 0,
+      "FP": 0,
+      "TN": 21,
+      "FN": 0,
+      "count": 21,
+      "precision": null,
+      "recall": null,
+      "severity_accuracy": 1.0
+    },
+    "known_violation": {
+      "TP": 30,
+      "FP": 0,
+      "TN": 0,
+      "FN": 0,
+      "count": 30,
+      "precision": 1.0,
+      "recall": 1.0,
+      "severity_accuracy": 1.0
+    }
+  },
+  "known_violation_recall": 1.0,
+  "known_violation_error_recall": 1.0,
+  "targets_met": true,
+  "predictions": [
+    {
+      "id": "w9-001",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-002",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-003",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-004",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-005",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-006",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-007",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-008",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-009",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-010",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-011",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-012",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-013",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-014",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-015",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-016",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-017",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-018",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-019",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-020",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-021",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-022",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-023",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-024",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-025",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-026",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-027",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-028",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-029",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-030",
+      "kind": "known_violation",
+      "expected": "error",
+      "predicted": "error"
+    },
+    {
+      "id": "w9-031",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-032",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-033",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-034",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-035",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-036",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-037",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-038",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-039",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-040",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-041",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-042",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-043",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-044",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-045",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-046",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-047",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-048",
+      "kind": "compliant",
+      "expected": "none",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-049",
+      "kind": "compliant",
+      "expected": "info",
+      "predicted": "info"
+    },
+    {
+      "id": "w9-050",
+      "kind": "compliant",
+      "expected": "info",
+      "predicted": "info"
+    },
+    {
+      "id": "w9-051",
+      "kind": "compliant",
+      "expected": "info",
+      "predicted": "info"
+    },
+    {
+      "id": "w9-052",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "warning"
+    },
+    {
+      "id": "w9-053",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "warning"
+    },
+    {
+      "id": "w9-054",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "warning"
+    },
+    {
+      "id": "w9-055",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "warning"
+    },
+    {
+      "id": "w9-056",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "warning"
+    },
+    {
+      "id": "w9-057",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "warning"
+    },
+    {
+      "id": "w9-058",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "warning"
+    },
+    {
+      "id": "w9-059",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "warning"
+    },
+    {
+      "id": "w9-060",
+      "kind": "borderline",
+      "expected": "warning",
+      "predicted": "warning"
+    },
+    {
+      "id": "w9-061",
+      "kind": "challenge",
+      "expected": "error",
+      "predicted": "none"
+    },
+    {
+      "id": "w9-062",
+      "kind": "challenge",
+      "expected": "error",
+      "predicted": "none"
+    }
+  ]
+}

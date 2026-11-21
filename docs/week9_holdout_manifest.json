@@ -1,0 +1,5 @@
+{
+  "dataset_sha256": "b56e41a2329300ccf39ba481802897cebac337df5de54287686855441575da09",
+  "freeze_sha256": "5e3614991e858d7cbcf866a44f6886084396290e711099491cd9e051a05e3b56",
+  "stage": "Dataset and labels sealed before first scoring; not used for rule development."
+}
